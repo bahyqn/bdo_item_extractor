@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>296</itemKey>
+	<itemName>Nightmare Fragment</itemName>
+	<itemIcon>00000296.png</itemIcon>
+	<itemDesc>It recalls past nightmares from Altar of Blood.\n\n- If you have the item, you can use it to retry the Altar of Blood stage you were unable to clear.\n- You must have knowledge of the stage you are attempting to retry and of any previous stages (excluding stage 1).\n- The effects will not be applied when this item is used outside of Altar of Blood.\n\n- How to Obtain: Use Simple Alchemy in the Processing Window to combine Black Energy Residue x40 and Memory Fragment x1.</itemDesc>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>9749</id>
+			<name>Black Energy Residue</name>
+			<icon>00009749.png</icon>
+			<desc>The crystallized essence of magical powers extracted from monsters. The item is used to craft Dragon Slayer Weapons, the secret Awakening Weapons of Drieghan.\n\n- How to obtain: Obtain this item by defeating monsters in Drieghan.\n\n- Usage: The item may be crafted using Refined Black Energy Residue at a 1 level Weapon Workshop at Duvencrune 5.\n\n- Refined Black Energy Residue Material: Black Energy Residue x25\n\n- Refined Black Energy Residue x11 are needed to craft a Hesed&apos;s Crystal. Hesed&apos;s Crystal x16, Hughol&apos;s Weapon and Dragon Slayer Weapon Blueprint x20 are required to craft a Dragon Slayer Weapon.</desc>
+			<count>40</count>
+		</item>
+		<item>
+			<id>44195</id>
+			<name>Memory Fragment</name>
+			<icon>00044195.png</icon>
+			<desc>{TextBind:TEXTBIND_MEMORYFRAGMENT}</desc>
+			<count>1</count>
+		</item>
+	</manufacture>
+</itemInfo>
+

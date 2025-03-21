@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<productNote>
+	<string>
+		<message index="0" name="Géopoint"/>
+		<message index="1" name="Pêche"/>
+		<message index="2" name="Alchimie"/>
+		<message index="3" name="Cuisine"/>
+		<message index="4" name="Transformation"/>
+		<message index="5" name="Fabriquer dans la maison"/>
+		<message index="6" name="Récolte"/>
+		<message index="10" name="Séchage"/>
+		<message index="11" name="Meulage"/>
+		<message index="12" name="Mélange"/>
+		<message index="13" name="Chauffage"/>
+		<message index="14" name="Affinement"/>
+		<message index="15" name="Coupe"/>
+		<message index="16" name="Cuisine impériale"/>
+		<message index="17" name="Alchimie impériale"/>
+		<message index="18" name="Manufacture"/>
+		<message index="20" name="Production de géopoints d'exploration"/>
+		<message index="21" name="Boutique PNJ"/>
+		<message index="22" name="Utilisation"/>
+		<message index="23" name="→ Cet objet peut être fabriqué artisanalement"/>
+		<message index="24" name="Ingrédient principal :"/>
+		<message index="100" name="Nom de l'objet"/>
+		<message index="101" name="Liste d'objets"/>
+		<message index="102" name="Informations de l'objet"/>
+		<message index="103" name="Acquisition"/>
+		<message index="200" name="Recherche"/>
+		<message index="201" name="Chargement..."/>
+		<message index="202" name="Il n'y a pas d'information d'objet."/>
+		<message index="203" name="Les caractères spéciaux sont interdits dans les critères de recherche."/>
+		<message index="204" name="Veuillez rechercher un terme valide."/>
+		<message index="205" name="Il n'y a pas de résultat de recherche."/>
+		<message index="206" name="Erreur de catégorie :"/>
+		<message index="207" name="Recherche"/>
+		<message index="9030" name="Poissonnerie"/>
+		<message index="9022" name="Banque d'investissement"/>
+		<message index="9014" name="Atelier de wagons"/>
+		<message index="906" name="Atelier artisanal"/>
+		<message index="9029" name="Atelier d'O'draxxia"/>
+		<message index="9021" name="Atelier de composants de wagon"/>
+		<message index="9013" name="Chantier naval"/>
+		<message index="905" name="Atelier d'armures"/>
+		<message index="9024" name="Atelier de Florin"/>
+		<message index="9016" name="Atelier de meubles"/>
+		<message index="908" name="Orfèvre"/>
+		<message index="900" name="Résidence"/>
+		<message index="9032" name="Manufacture agricole"/>
+		<message index="9031" name="Atelier des champignons"/>
+		<message index="9023" name="Atelier de céramique"/>
+		<message index="9015" name="Atelier d'équipement équin"/>
+		<message index="907" name="Atelier de charpenterie"/>
+		<message index="9026" name="Atelier d'Arehaza"/>
+		<message index="9018" name="Atelier de tailleur"/>
+		<message index="9010" name="Raffinerie"/>
+		<message index="902" name="Dépôt"/>
+		<message index="9034" name="Établi minéral"/>
+		<message index="9025" name="Atelier de Tarif"/>
+		<message index="9017" name="Atelier de spécialités"/>
+		<message index="909" name="Atelier de fabrication d'outils"/>
+		<message index="901" name="Hébergement ouvrier"/>
+		<message index="9033" name="Atelier de menuiserie"/>
+		<message index="9028" name="Atelier de Grána"/>
+		<message index="9020" name="Atelier de pièces de bateau"/>
+		<message index="9012" name="Atelier de canons"/>
+		<message index="904" name="Atelier d'armes"/>
+		<message index="9027" name="Atelier de Duvencrune"/>
+		<message index="9019" name="Atelier d'armes de siège"/>
+		<message index="9011" name="Forge"/>
+		<message index="903" name="Ranch"/>
+		<message index="9035" name="Plateforme de jarres pour condiments"/>
+	</string>
+</productNote>
+

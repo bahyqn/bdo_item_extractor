@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>293</itemKey>
+	<itemName>Dim Origin of Clear Water</itemName>
+	<itemIcon>00000293.png</itemIcon>
+	<itemDesc>A sphere that contains ancient cool water that is used to make the Flare of the Ancients.\n\n- Usage: Craft Flare of the Ancients\n\n- Crafting Method: Processing (L) - Simple Alchemy\n\n- Crafting Materials: \nDim Origin of Clear Water x1\nDim Origin of Crimson Flame x1\nDim Origin of Earth x1\nAncient Spirit Dust x4\n\n- How to Obtain: Processing (L) - Simple Alchemy with the following materials \nEssence of Nature x2\nPowder of Darkness x10</itemDesc>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>4801</id>
+			<name>Powder of Darkness</name>
+			<icon>00004801.png</icon>
+			<desc>A natural resource that can be used to alter other resources through Alchemy.\n- How to Obtain: There&apos;s a small chance of acquiring it from Rocks.</desc>
+			<count>10</count>
+		</item>
+		<item>
+			<id>5206</id>
+			<name>Essence of Nature</name>
+			<icon>00005206.png</icon>
+			<desc>An essence extracted from Fruit of Nature, a fruit obtained at a low rate through Farming. It&apos;s used as an ingredient in Alchemy.\n\n- How to Obtain: &gt; Craft via an Alchemy Tool in your residence when at least Alchemy Apprentice 1.</desc>
+			<count>2</count>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>292</id>
+			<name>Flare of the Ancients</name>
+			<icon>00000292.png</icon>
+			<desc>A flare that produces an explosion of brilliant light.\n\n- Stuns nearby enemies for a period of time when used in the Altar of Blood.\n※ Has no effect when used outside of Altar of Blood.\n\n- Cooldown: 2 min\n\n- How to Obtain: Process Dim Origin of Clear Water, Dim Origin of Crimson Flame, Dim Origin of Earth, Ancient Spirit Dust x4 using Simple Alchemy.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

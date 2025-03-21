@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>294</itemKey>
+	<itemName>Protorigen del Fuego</itemName>
+	<itemIcon>00000294.png</itemIcon>
+	<itemDesc>Una esfera que contiene el abrasador fuego de los antiguos. Es uno de los componentes de la bengala de los antiguos.\n\n- Uso: fabricar [Bengala de los antiguos]\n\n- Cómo fabricar: Alquimia simple en el menú de Elaboración (L)\n\n- Componentes\n[Protorigen del Agua] x1\n[Protorigen del Fuego] x1\n[Protorigen de la Tierra] x1\n[Polvo de espíritu antiguo] x4\n\n- Cómo obtener: Alquimia simple en el menú de Elaboración (L) y añade los siguientes materiales\n[Esencia de la naturaleza] x2\n[Polvos flamígeros] x10</itemDesc>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>4802</id>
+			<name>Polvos flamígeros</name>
+			<icon>00004802.png</icon>
+			<desc>Un recurso natural que se consigue mediante Recolección y puede usarse para modificar otros materiales utilizando Alquimia.\nMétodo de uso: hay una pequeña posibilidad de obtenerlo de las rocas.</desc>
+			<count>10</count>
+		</item>
+		<item>
+			<id>5206</id>
+			<name>Esencia de la naturaleza</name>
+			<icon>00005206.png</icon>
+			<desc>Una esencia proveniente de la fruta de naturaleza, una fruta con pocas posibilidades de obtenerse mediante Cultivo. Se usa como componente en Alquimia.\n- Cómo obtener: Puedes crear este objeto usando la estación de Alquimia en tu residencia si tu nivel de Alquimia es Aprendiz 1 o superior.</desc>
+			<count>2</count>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>292</id>
+			<name>Bengala de los antiguos</name>
+			<icon>00000292.png</icon>
+			<desc>Al explotar, esta bengala emite una luz muy brillante.\n\n- Aturde temporalmente a los enemigos cercanos al usarse en el Altar de Sangre.\n• No funciona fuera del Altar de Sangre\n- Tiempo de reutilización: \n2 min\n- Cómo obtener: Selecciona Alquimia simple y añade \n[Protorigen del Agua] x1, [Protorigen del Fuego] x1, [Protorigen de la Tierra] x1 y [Polvo de espíritu antiguo] x4.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

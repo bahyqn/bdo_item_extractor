@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>292</itemKey>
+	<itemName>Fusée éclairante des anciens</itemName>
+	<itemIcon>00000292.png</itemIcon>
+	<itemDesc>Une fusée éclairante produisant une explosion de lumière vive.\n\n– Cet objet, utilisable à l&apos;Autel sanglant, permet d&apos;étourdir pendant un certain temps les ennemis se trouvant à proximité.\n– Objet sans effet en dehors de l&apos;Autel sanglant.\n\n– Temps de recharge : 2 minutes\n\n– Obtention : transformez Origines estompées de l&apos;eau claire, Origines estompées de la flamme pourpre, Origines estompées de la terre, Poussière d&apos;esprit ancien x4 en utilisant l&apos;alchimie simple.</itemDesc>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>293</id>
+			<name>Origines estompées de l&apos;eau claire</name>
+			<icon>00000293.png</icon>
+			<desc>Une sphère contenant une eau douce et ancienne pouvant servir à fabriquer une Fusée éclairante des anciens.\n\n- Utilisation : fabriquer Fusée éclairante des anciens\n\n- Fabrication : Transformation ({KeyBind:Manufacture}) - Alchimie simple\n\n- Matériaux\nOrigines estompées de l&apos;eau claire x1\nOrigines estompées de la flamme pourpre x1\nOrigines estompées de la terre x1\nPoussière d&apos;esprit ancien x4\n\n- Obtention : Transformation ({KeyBind:Manufacture}) - Alchimie simple sur les objets ci-dessous\nEssence de la nature x2\nPoudre des ténèbres x10</desc>
+			<count>1</count>
+		</item>
+		<item>
+			<id>294</id>
+			<name>Origines estompées de la flamme pourpre</name>
+			<icon>00000294.png</icon>
+			<desc>Une sphère contenant d&apos;anciennes flammes ardentes pouvant servir à fabriquer une Fusée éclairante des anciens.\n\n- Utilisation : fabriquer Fusée éclairante des anciens\n\n- Fabrication : Transformation ({KeyBind:Manufacture}) - Alchimie simple\n\n- Matériaux\nOrigines estompées de l&apos;eau claire x1\nOrigines estompées de la flamme pourpre x1\nOrigines estompées de la terre x1\nPoussière d&apos;esprit ancien x4\n\n- Obtention : Transformation ({KeyBind:Manufacture}) - Alchimie simple sur les objets ci-dessous\nEssence de la nature x2\nPoudre de flamme x10</desc>
+			<count>1</count>
+		</item>
+		<item>
+			<id>295</id>
+			<name>Origines estompées de la terre</name>
+			<icon>00000295.png</icon>
+			<desc>Une sphère contenant une terre ancienne et fertile pouvant servir à fabriquer une Fusée éclairante des anciens.\n\n- Utilisation : fabriquer Fusée éclairante des anciens\n\n- Fabrication : Transformation ({KeyBind:Manufacture}) - Alchimie simple\n\n- Matériaux\nOrigines estompées de l&apos;eau claire x1\nOrigines estompées de la flamme pourpre x1\nOrigines estompées de la terre x1\nPoussière d&apos;esprit ancien x4\n\n- Obtention : Transformation ({KeyBind:Manufacture}) - Alchimie simple sur les objets ci-dessous\nEssence de la nature x2\nPoudre de la terre x10</desc>
+			<count>1</count>
+		</item>
+		<item>
+			<id>721002</id>
+			<name>Poussière d&apos;esprit ancien</name>
+			<icon>00721002.png</icon>
+			<desc>Une poussière qui peut être utilisée pour se débarrasser de l&apos;énergie noire.\n\n- Utilisation : fabriquer Pierre de Caphras\n\n- Fabrication : Transformation ({KeyBind:Manufacture}) - Alchimie simple\n\n- Matériaux\nPoussière d&apos;esprit ancien x5\nPierre noire x1\n\n- Matériaux pour en fabriquer 10\nPoudre d&apos;Esprit Ancien x50\nPierre Noire x10\nPoudre de Pierre Noire x1\n\n- Matériaux pour en fabriquer 100\nPoudre d&apos;Esprit Ancien x500\nPierre Noire x100\nRéactif de Poudre Pure x1\n\n- Obtention : effectuer des quêtes, chasser ou récolter</desc>
+			<count>4</count>
+		</item>
+	</manufacture>
+</itemInfo>
+

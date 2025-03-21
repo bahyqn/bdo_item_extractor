@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>292</itemKey>
+	<itemName>Leuchtsignal der Vorzeitlichen</itemName>
+	<itemIcon>00000292.png</itemIcon>
+	<itemDesc>Ein Leuchtsignal das eine hell strahlende Lichtexplosion freisetzt.\n\nBetäubt eine Zeit lang Gegner in der Nähe, wenn es im Altar des Blutes benutzt wird.\n– Hat außerhalb des Altars des Blutes keine Wirkung.\n\n– Abklingzeit: 30 Sek.\n\n– Beschaffung: Verarbeitet Schwacher Ursprung des Klaren Wassers, Schwacher Ursprung der Purpurnen Flamme, Schwacher Ursprung der Erde und 4 x Urgeiststaub mit Einfacher Alchemie.</itemDesc>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>293</id>
+			<name>Schwacher Ursprung des Klaren Wassers</name>
+			<icon>00000293.png</icon>
+			<desc>Eine Sphäre, die vorzeitliches kühles Wasser beherbergt. Sie wird dazu benutzt, das Leuchtsignal der Vorzeitlichen herzustellen.\n\n– Verwendungszweck: Leuchtsignal der Vorzeitlichen herstellen\n\n– Herstellung: Wählt Einfache Alchemie aus dem Verarbeitungsmenü ({KeyBind:Manufacture}).\n\n– Material:\n1 x Schwacher Ursprung des Klaren Wassers\n1 x Schwacher Ursprung der Purpurnen Flamme\n1 x Schwacher Ursprung der Erde\n4 x Urgeiststaub\n\n– Beschaffung: Wählt Einfache Alchemie aus dem Verarbeitungsmenü ({KeyBind:Manufacture}) und verarbeitet Folgendes.\n2 x Essenz der Natur\n10 x Pulver der Dunkelheit</desc>
+			<count>1</count>
+		</item>
+		<item>
+			<id>294</id>
+			<name>Schwacher Ursprung der Purpurnen Flamme</name>
+			<icon>00000294.png</icon>
+			<desc>Eine Sphäre, die vorzeitliche glühende Flammen beherbergt. Sie wird dazu benutzt, das Leuchtsignal der Vorzeitlichen herzustellen.\n\n– Verwendungszweck: Leuchtsignal der Vorzeitlichen herstellen\n\n– Herstellung: Wählt Einfache Alchemie aus dem Verarbeitungsmenü ({KeyBind:Manufacture}).\n\n– Material:\n1 x Schwacher Ursprung des Klaren Wassers\n1 x Schwacher Ursprung der Purpurnen Flamme\n1 x Schwacher Ursprung der Erde\n4 x Urgeiststaub\n\n– Beschaffung: Wählt Einfache Alchemie aus dem Verarbeitungsmenü ({KeyBind:Manufacture}) und verarbeitet Folgendes.\n2 x Essenz der Natur\n10 x Flammenpulver</desc>
+			<count>1</count>
+		</item>
+		<item>
+			<id>295</id>
+			<name>Schwacher Ursprung der Erde</name>
+			<icon>00000295.png</icon>
+			<desc>Eine Sphäre, die vorzeitliche weiche Erde beherbergt. Sie wird dazu benutzt, das Leuchtsignal der Vorzeitlichen herzustellen.\n\n– Verwendungszweck: Leuchtsignal der Vorzeitlichen herstellen\n\n– Herstellung: Wählt Einfache Alchemie aus dem Verarbeitungsmenü ({KeyBind:Manufacture}).\n\n– Material:\n1 x Schwacher Ursprung des Klaren Wassers\n1 x Schwacher Ursprung der Purpurnen Flamme\n1 x Schwacher Ursprung der Erde\n4 x Urgeiststaub\n\n– Beschaffung: Wählt Einfache Alchemie aus dem Verarbeitungsmenü ({KeyBind:Manufacture}) und verarbeitet Folgendes.\n2 x Essenz der Natur\n10 x Erdenpulver</desc>
+			<count>1</count>
+		</item>
+		<item>
+			<id>721002</id>
+			<name>Urgeiststaub</name>
+			<icon>00721002.png</icon>
+			<desc>Ein Pulver, das verwendet werden kann, um schwarze Energie zu reinigen.\n\n– Verwendungszweck: Caphras-Stein herstellen\n\n– Herstellung: Wählt Einfache Alchemie aus dem Verarbeitungsmenü ({KeyBind:Manufacture})\n\n– Material:\n5 x Urgeiststaub\n1 x Schwarzstein\n\n– Material zur 10-maligen Produktion:\n50 x Urgeiststaub\n10 x Schwarzstein\n1 x Schwarzsteinpulver\n\n– Material zur 100-maligen Produktion:\n500 x Urgeiststaub\n100 x Schwarzstein\n1 x Reines Pulverreagenz\n\n– Beschaffung: Führt Quests durch, besiegt Monster oder sammelt Ressourcen.</desc>
+			<count>4</count>
+		</item>
+	</manufacture>
+</itemInfo>
+

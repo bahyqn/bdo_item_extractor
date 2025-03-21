@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>292</itemKey>
+	<itemName>Flare of the Ancients</itemName>
+	<itemIcon>00000292.png</itemIcon>
+	<itemDesc>A flare that produces an explosion of brilliant light.\n\n- Stuns nearby enemies for a period of time when used in the Altar of Blood.\n※ Has no effect when used outside of Altar of Blood.\n\n- Cooldown: 2 min\n\n- How to Obtain: Process Dim Origin of Clear Water, Dim Origin of Crimson Flame, Dim Origin of Earth, Ancient Spirit Dust x4 using Simple Alchemy.</itemDesc>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>293</id>
+			<name>Dim Origin of Clear Water</name>
+			<icon>00000293.png</icon>
+			<desc>A sphere that contains ancient cool water that is used to make the Flare of the Ancients.\n\n- Usage: Craft Flare of the Ancients\n\n- Crafting Method: Processing ({KeyBind:Manufacture}) - Simple Alchemy\n\n- Crafting Materials: \nDim Origin of Clear Water x1\nDim Origin of Crimson Flame x1\nDim Origin of Earth x1\nAncient Spirit Dust x4\n\n- How to Obtain: Processing ({KeyBind:Manufacture}) - Simple Alchemy with the following materials \nEssence of Nature x2\nPowder of Darkness x10</desc>
+			<count>1</count>
+		</item>
+		<item>
+			<id>294</id>
+			<name>Dim Origin of Crimson Flame</name>
+			<icon>00000294.png</icon>
+			<desc>A sphere that contains ancient scorching flames that is used to make the Flare of the Ancients.\n\n- Usage: Craft Flare of the Ancients\n\n- Crafting Method: Processing ({KeyBind:Manufacture}) - Simple Alchemy\n\n- Crafting Materials: \nDim Origin of Clear Water x1\nDim Origin of Crimson Flame x1\nDim Origin of Earth x1\nAncient Spirit Dust x4\n\n- How to Obtain: Processing ({KeyBind:Manufacture}) - Simple Alchemy with the following materials \nEssence of Nature x2\nPowder of Flame x10</desc>
+			<count>1</count>
+		</item>
+		<item>
+			<id>295</id>
+			<name>Dim Origin of Earth</name>
+			<icon>00000295.png</icon>
+			<desc>A sphere that contains ancient soft soil that is used to make the Flare of the Ancients.\n\n- Usage: Craft Flare of the Ancients\n\n- Crafting Method: Processing ({KeyBind:Manufacture}) - Simple Alchemy\n\n- Crafting Materials: \nDim Origin of Clear Water x1\nDim Origin of Crimson Flame x1\nDim Origin of Earth x1\nAncient Spirit Dust x4\n\n- How to Obtain: Processing ({KeyBind:Manufacture}) - Simple Alchemy with the following materials \nEssence of Nature x2\nPowder of Earth x10</desc>
+			<count>1</count>
+		</item>
+		<item>
+			<id>721002</id>
+			<name>Ancient Spirit Dust</name>
+			<icon>00721002.png</icon>
+			<desc>Dust used to purge black energy.\n\n- Usage: Craft Caphras Stone\n\n- Crafting Method: Processing ({KeyBind:Manufacture}) - Simple Alchemy\n\n- Crafting Materials: \nAncient Spirit Dust x5\nBlack Stone x1\n\n- Materials for x10: \nAncient Spirit Dust x50\nBlack Stone x10\nBlack Stone Powder x1\n\n- Materials for x100:\nAncient Spirit Dust x500\nBlack Stone x100\nPure Powder Reagent x1\n\n- How to Obtain: Quests, defeating monsters, or Gathering</desc>
+			<count>4</count>
+		</item>
+	</manufacture>
+</itemInfo>

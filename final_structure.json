@@ -1,0 +1,128 @@
+{
+  "itemInfo": {
+    "itemKey": "",
+    "itemName": "",
+    "itemIcon": "",
+    "itemDesc": "",
+    "shop": [],
+    "House": [
+      {
+        "type": "4",
+        "item": [
+          {
+            "id": "",
+            "name": "",
+            "icon": "",
+            "desc": "",
+            "count": ""
+          }
+        ]
+      }
+    ],
+    "Makelist": [
+      {
+        "id": "",
+        "name": "",
+        "icon": "",
+        "desc": ""
+      }
+    ],
+    "Processing": [
+      {
+        "action": "heat",
+        "item": [
+          {
+            "id": "",
+            "name": "",
+            "icon": "",
+            "desc": "",
+            "count": ""
+          }
+        ]
+      }
+    ],
+    "Alchemy": [
+      {
+        "id": "",
+        "name": "",
+        "icon": "",
+        "desc": "",
+        "count": ""
+      }
+    ],
+    "Fising": "1",
+    "Gathering": [],
+    "Node": [],
+    "Cook": [
+      {
+        "id": "",
+        "name": "",
+        "icon": "",
+        "desc": "",
+        "count": ""
+      }
+    ]
+  },
+
+  "itemmaking": {
+    "nodeProduct": [
+      {
+        "key": "55799",
+        "name": "Abun Wooden Doll",
+        "icon": "00055799.png"
+      }
+    ],
+    "fishing": [
+      {
+        "key": "",
+        "name": "",
+        "icon": ""
+      }
+    ],
+    "alchemy": [
+      {
+        "key": "",
+        "name": "",
+        "icon": ""
+      }
+    ],
+    "cook": [
+      {
+        "key": "",
+        "name": "",
+        "icon": ""
+      }
+    ],
+    "manufacture": [
+      {
+        "key": "",
+        "name": "",
+        "icon": ""
+      }
+    ],
+    "houseCraft": [
+      {
+        "key": "",
+        "name": "",
+        "icon": ""
+      }
+    ],
+    "collect": [
+      {
+        "key": "",
+        "name": "",
+        "icon": ""
+      }
+    ]
+  },
+  "productNode": [
+    {
+      "index": "0",
+      "name": "Node"
+    },
+    {
+      "index": "1",
+      "name": "Fishing"
+    }
+  ]
+}
