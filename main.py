@@ -32,6 +32,16 @@ def recipe_export(xml_file) -> dict:
         print(f"Error parsing {xml_file}: {e}")
 
 def main(data_path: str, save_path: str, default_server: str):
+    '''
+    index_search:
+        'en': {
+            '292': 'Flare of the Ancients',
+            ...
+        },
+        'sp': {
+            ...
+        }
+    '''
     try:
         index_search: dict = {}
         index_categories: dict[str, ItemClass] = {}
@@ -60,6 +70,7 @@ def main(data_path: str, save_path: str, default_server: str):
                 insert_index_search(index_search, default_server, item_data)
                 create_json(os.path.join(save_path, default_server), temp_server[-1].split('.')[0], item_data)
                 insert_index_categories(list(item_data.keys()), index_categories, item_data, default_server)
+
         for el in index_search:
             create_json(os.path.join(save_path, el), f"{el}_index_search", index_search[el])
             create_json_class2json(os.path.join(save_path, el), f"{el}_index_categories", index_categories[el])
