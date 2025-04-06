@@ -128,14 +128,13 @@ cook ------------------------> Cook
 house -----------------------> House
 alchemy ---------------------> Alchemy
 fishing ---------------------> Fishing
-collect ---------------------> Collect
+collect ---------------------> Gathering
 makelist --------------------> Makelist
 manufacture -----------------> Processing
 ```
-```
-
 
 # Game Items Info
+<span style="color:red; background-color: yellow;font-weight: bold;font-size: 1.5rem">View the example.json file</span>
 ```
 <itemInfo>
     <itemKey>292</itemKey>

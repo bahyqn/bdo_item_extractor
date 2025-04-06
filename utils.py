@@ -1,10 +1,21 @@
-from functools import wraps
 import json
 import os
-from pathlib import Path
 import re
-
+from functools import wraps
 from extract.__init import ItemClass
+from pathlib import Path
+
+classify = {
+            'shop': 'Shop',
+            'node': 'Node',
+            'cook': 'Cooking',
+            'house': 'House',
+            'alchemy': 'Alchemy',
+            'fishing': 'Fishing',
+            'collect': 'Gathering',
+            'makelist': 'Makelist',
+            'manufacture': 'Processing',
+        }
 
 def convert_escaped_newlines(func):
     @wraps(func)
@@ -58,6 +69,9 @@ def remove_double_braces_to_list(text: str, delimiter: str = '\n'):
         return temp
 
 
+def check_key(ck_dict: dict, tag: str) -> str:
+    return ck_dict.get(tag) if ck_dict.get(tag) else tag
+
 def create_json(path: str, item_key: str, data: dict | object):
     save_file_path = os.path.join(path, item_key+'.json')
     os.makedirs(path, exist_ok=True)
@@ -86,7 +100,7 @@ def insert_index_search(dic: dict, server: str, data: dict) -> None:
             dic[server] = {}
         dic[server][str(data.get('itemKey'))] = data.get('itemName')
 
-def insert_index_categories(tag_list: list, class_dict: dict, data: dict, server: str) -> None:
+def insert_index_categories(tag_list: list, class_dict: dict, data: dict, server: str, classify: dict) -> None:
     '''
     ['manufacture', 'makelist']
     ['makelist']
@@ -96,38 +110,40 @@ def insert_index_categories(tag_list: list, class_dict: dict, data: dict, server
             判断这个element是不是makelist,是就放在makelist类别
             不是就放在对应的类别
 
-            如果lis中只有 severral 个 element, 逐一添加类别, 遇到 makelist 则不添加
+            如果lis中有 severral 个 element, 逐一添加类别, 遇到 makelist 则不添加
 
     '''
     if data.get('xml') == 'itemInfo':
         if not class_dict.get(server):
             class_dict[server] = ItemClass()
 
-        classify = {
-            'shop': 'Shop',
-            'node': 'Node',
-            'cook': 'Cooking',
-            'house': 'House',
-            'alchemy': 'Alchemy',
-            'fishing': 'Fishing',
-            'collect': 'Gathering',
-            'makelist': 'Makelist',
-            'manufacture': 'Processing',
-        }
+        # classify = {
+        #     'shop': 'Shop',
+        #     'node': 'Node',
+        #     'cook': 'Cooking',
+        #     'house': 'House',
+        #     'alchemy': 'Alchemy',
+        #     'fishing': 'Fishing',
+        #     'collect': 'Gathering',
+        #     'makelist': 'Makelist',
+        #     'manufacture': 'Processing',
+        # }
         temp = tag_list[5:]
+        # print(tag_list)
+        # print(temp)
 
         if len(temp) == 1:
             cl = classify.get(temp[0])
-            class_dict[server][cl].append({
+            class_dict[server][temp[0]].append({
                 'itemKey': data.get('itemKey'),
                 'itemName': data.get('itemName'),
                 'itemIcon': data.get('itemIcon'),
             })
         else:
             for el in tag_list[5:]:
-                cl = classify.get(el)
-                if cl and cl != 'Makelist':
-                    class_dict[server][cl].append({
+                if el != 'Makelist':
+                    class_dict[server][el].append({
                         'itemKey': data.get('itemKey'),
-                        'itemName': data.get('itemName')
+                        'itemName': data.get('itemName'),
+                        'itemIcon': data.get('itemIcon') or '',
                     })

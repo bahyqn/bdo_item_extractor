@@ -130,6 +130,8 @@ manufacture -----------------> Processing
 
 
 ## xml中各类数据的标签
+# Game Items Info
+<span style="color:red; background-color: yellow;font-weight: bold;font-size: 1.5rem">查看example.json</span>
 ```
 <itemInfo>
     <itemKey>292</itemKey>

@@ -29,7 +29,8 @@ def find_label(xml_file: str, label: str, attrib: str='', several: bool=False) -
         for el in root:
             if el.tag == label:
                 counter = Counter([el.tag for el in root])
-  
+                # print(counter)
+
                 if several:
                     if counter[label] > 1:
                         print(xml_file, counter[label])
@@ -76,14 +77,14 @@ def extract_structure(xml_file, structure):
             # sys.exit(0)
 
         if tag not in current_dict:
-             current_dict[tag] = {}
-             if element.attrib:
-                 current_dict[tag] = {
-                     'attrib': element.attrib
-                 }
+            current_dict[tag] = {}
+            if element.attrib:
+                current_dict[tag] = {
+                    'attrib': element.attrib
+                }
 
         for child in element:
-             recursive_build(child, current_dict[tag], current_xml)
+            recursive_build(child, current_dict[tag], current_xml)
         
 
     try:
@@ -142,6 +143,9 @@ if __name__ == '__main__':
             # find_item(os.path.join(folder_path, file), 'Melted Iron Shard')
             # find_item(os.path.join(folder_path, file), 'Angler')
 
-            # find_label(xml_file=os.path.join(folder_path, temp_file[0]), label='manufacture', attrib='action', several=True)
-            metadata = extract_structure(os.path.join(folder_path, temp_file[0]), metadata)
-    print(metadata)
+            find_label(xml_file=os.path.join(folder_path, temp_file[0]), label='makelist', several=False)
+            
+            # makelist
+            # find_label(xml_file=os.path.join(folder_path, temp_file[0]), label='makelist')
+    #         metadata = extract_structure(os.path.join(folder_path, temp_file[0]), metadata)
+    # print(metadata)

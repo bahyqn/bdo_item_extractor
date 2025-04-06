@@ -1,9 +1,9 @@
 import importlib
-from extract.__init import ItemClass
-from utils import create_json_class2json, get_all_files, insert_index_categories, insert_index_search, split_and_clean_text, remove_double_braces, create_json
-from pathlib import Path
 import xml.etree.ElementTree as ET
 import os
+from extract.__init import ItemClass
+from utils import create_json_class2json, get_all_files, insert_index_categories, insert_index_search, split_and_clean_text, remove_double_braces, create_json, classify, check_key
+from pathlib import Path
 
 
 def recipe_export(xml_file) -> dict:
@@ -22,10 +22,10 @@ def recipe_export(xml_file) -> dict:
 
             if isinstance(func(tag), list):
                 if tag.tag not in data:
-                    data[tag.tag] = []
-                data[tag.tag].extend(func(tag))
+                    data[check_key(classify, tag.tag)] = []
+                data[check_key(classify, tag.tag)].extend(func(tag))
             else:
-                data[tag.tag] = func(tag)
+                data[check_key(classify, tag.tag)] = func(tag)
         
         return data
     except ET.ParseError as e:
@@ -63,13 +63,13 @@ def main(data_path: str, save_path: str, default_server: str):
                 # print(f"server: {temp_list[1]}")
                 insert_index_search(index_search, temp_server[1], item_data)
                 create_json(os.path.join(save_path, temp_server[1]), temp_server[-1].split('.')[0], item_data)
-                insert_index_categories(list(item_data.keys()), index_categories, item_data, temp_server[1])
+                insert_index_categories(list(item_data.keys()), index_categories, item_data, temp_server[1], classify)
             elif len(temp_server) == 1:
                 # print(f"path: {os.path.join(data_path, temp_list[0])}")
                 # print(f"server: {default_server}")
                 insert_index_search(index_search, default_server, item_data)
                 create_json(os.path.join(save_path, default_server), temp_server[-1].split('.')[0], item_data)
-                insert_index_categories(list(item_data.keys()), index_categories, item_data, default_server)
+                insert_index_categories(list(item_data.keys()), index_categories, item_data, default_server, classify)
 
         for el in index_search:
             create_json(os.path.join(save_path, el), f"{el}_index_search", index_search[el])
@@ -93,6 +93,5 @@ if __name__ == '__main__':
     save_path: str = './json'
     default_server: str = 'en'
     data_path = r'E:\paz_extract\ui_data\ui_html\xml\en'
-    # data_path = r'E:\projects\others\bdo_database_capture\xml'
     # save_path = r'E:\projects\others\bdo_database_capture\json'
     main(data_path, save_path, default_server)
