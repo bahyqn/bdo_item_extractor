@@ -1,14 +1,19 @@
 ** | [ENGLISH](README.md) | [中文](README_CN.md) | **
+
 # BDO Item Data Extractor
-This project extracts item data from Black Desert Online game files. 
+
+This project extracts item data from Black Desert Online game files.
 <span style="color: red">Tested exclusively on the NA client.</span>
 
 ## Prerequisites
-* PAZ-Unpacker
-* Python (current: 3.12.3)
+
+-   PAZ-Unpacker
+-   Python (current: 3.12.3)
 
 <span style="color:red; background-color: yellow;font-weight: bold;font-size: 1.5rem">Before you need to know</span>
+
 > PAZ path:
+
 ```
 Offical website:
     Pearlabyss\BlackDesert\Paz
@@ -16,18 +21,24 @@ Offical website:
 Steam:
     Steam\steamapps\common\BlackDesert\Paz
 ```
+
 <span style="color:red; background-color: #87CEFA;font-weight: bold;font-size: 1.5rem">In PAZ-Unpacker</span>
+
 > Game items path:
+
 ```
 ui_data\ui_html\xml
 ```
 
 > Icon path:
+
 ```
 ui_texture\icon\new_icon
 ui_texture\icon\new_icon\product_icon_png
 ```
+
 <span style="color:red; background-color: #87CEFA;font-weight: bold;font-size: 1.5rem">main.py</span>
+
 ```
     # data_path = r'E:\ui_html\xml\en'
     # save_path = r'E:\save\ui_data\ui_html\xml\en'
@@ -35,7 +46,7 @@ ui_texture\icon\new_icon\product_icon_png
     save_path = r''
 
 
-    There are four languages on the NA client(sp, fr, de, en). 
+    There are four languages on the NA client(sp, fr, de, en).
     This project uses split('_') to distinguish different language files
     _sp_292.xml .split('_') ['', 'sp', '292.xml']
     _fr_292.xml
@@ -46,22 +57,24 @@ ui_texture\icon\new_icon\product_icon_png
 ```
 
 ## Usage
+
 1. Download PAZ-Unpacker and this project.
 2. Open PAZ folder with PAZ-Unpacker.
 3. Select and extract.
 4. Open this project and run the following commands in the terminal.
-   ```
-    python -m venv .venv
 
-    .\.venv\Scripts\activate
+    ```
+     python -m venv .venv
 
-    pip install pydantic
+     .\.venv\Scripts\activate
 
-    python main.py
-   ```
+     pip install pydantic tqdm rich
 
+     python main.py
+    ```
 
 # File structure after running main.py
+
 ```
 |-en
 |-fr
@@ -120,6 +133,7 @@ ui_texture\icon\new_icon\product_icon_png
 ```
 
 # xml_label cover to categories （Used in utils.py）
+
 ```
 xml_label                      categories
 shop ------------------------> Shop
@@ -134,7 +148,9 @@ manufacture -----------------> Processing
 ```
 
 # Game Items Info
+
 <span style="color:red; background-color: yellow;font-weight: bold;font-size: 1.5rem">View the example.json file</span>
+
 ```
 <itemInfo>
     <itemKey>292</itemKey>

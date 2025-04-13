@@ -1,15 +1,21 @@
 ** [ENGLISH](README.md) | [中文](README_CN.md) | **
+
 # BDO Item Data Extractor
+
 这个项目可以提取出黑沙客户端的游戏物品数据。
 <span style="color: red">只在美服客户端测试过。其他服的客户端应该也可以</span>
 
 ## 提前准备的
-* PAZ-Unpacker
-* Python (当前使用版本: 3.12.3)
+
+-   PAZ-Unpacker
+-   Python (当前使用版本: 3.12.3)
 
 ## 使用
+
 <span style="color:red; background-color: yellow;font-weight: bold;font-size: 1.5rem">使用之前你需要知道</span>
-> PAZ位置:
+
+> PAZ 位置:
+
 ```
 官网下的客户端:
     Pearlabyss\BlackDesert\Paz
@@ -17,21 +23,27 @@
 Steam:
     Steam\steamapps\common\BlackDesert\Paz
 ```
-<span style="color:red; background-color: #87CEFA;font-weight: bold;font-size: 1.5rem">物品数据在PAZ-Unpacker中的位置</span>
+
+<span style="color:red; background-color: #87CEFA;font-weight: bold;font-size: 1.5rem">物品数据在 PAZ-Unpacker 中的位置</span>
+
 > 物品位置:
+
 ```
 ui_data\ui_html\xml
 ```
 
 > 图标位置:
+
 ```
 ui_texture\icon\new_icon
 ui_texture\icon\new_icon\product_icon_png
 ```
+
 1. 下载 PAZ-Unpacker，python,
-2. 打开PAZ-Unpacker选择PAZ所在的位置（建议先copy一份出来以免游戏数据损坏）
-3. 找到位置后直接export
-4. 在cmd中打开这个项目
+2. 打开 PAZ-Unpacker 选择 PAZ 所在的位置（建议先 copy 一份出来以免游戏数据损坏）
+3. 找到位置后直接 export
+4. 在 cmd 中打开这个项目
+
 ```
 打开 main.py，填写导出来的路径和保存路径
 # data_path = r'E:\paz_extract\ui_data\ui_html\xml\en'
@@ -49,11 +61,10 @@ python -m venv .venv
 
 .\.venv\Scripts\activate
 
-pip install pydantic
+pip install pydantic tqdm rich
 
 python main.py
 ```
-
 
 ## 结果的文件结构
 
@@ -114,7 +125,8 @@ python main.py
 }
 ```
 
-# xml标签与类别对照表 （utils.py的分类方法中参考了这个）
+# xml 标签与类别对照表 （utils.py 的分类方法中参考了这个）
+
 ```
 xml_label                      categories
 shop ------------------------> Shop
@@ -128,10 +140,12 @@ makelist --------------------> Makelist
 manufacture -----------------> Processing
 ```
 
+## xml 中各类数据的标签
 
-## xml中各类数据的标签
 # Game Items Info
-<span style="color:red; background-color: yellow;font-weight: bold;font-size: 1.5rem">查看example.json</span>
+
+<span style="color:red; background-color: yellow;font-weight: bold;font-size: 1.5rem">查看 example.json</span>
+
 ```
 <itemInfo>
     <itemKey>292</itemKey>

@@ -35,8 +35,10 @@ def find_label(xml_file: str, label: str, attrib: str='', several: bool=False) -
                     if counter[label] > 1:
                         print(xml_file, counter[label])
                         is_attrib(el, attrib)
+                        break
                 else:
                     print(f"{xml_file}, counter: {counter[label]}")
+                    break
                 
                 if attrib:
                     ac = el.attrib.get(attrib, 'unknown')
@@ -143,7 +145,7 @@ if __name__ == '__main__':
             # find_item(os.path.join(folder_path, file), 'Melted Iron Shard')
             # find_item(os.path.join(folder_path, file), 'Angler')
 
-            find_label(xml_file=os.path.join(folder_path, temp_file[0]), label='makelist', several=False)
+            find_label(xml_file=os.path.join(folder_path, temp_file[0]), label='manufacture', several=True)
             
             # makelist
             # find_label(xml_file=os.path.join(folder_path, temp_file[0]), label='makelist')

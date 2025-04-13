@@ -4,6 +4,7 @@ import os
 from extract.__init import ItemClass
 from utils import create_json_class2json, get_all_files, insert_index_categories, insert_index_search, split_and_clean_text, remove_double_braces, create_json, classify, check_key
 from pathlib import Path
+from tqdm.rich import trange
 
 
 def recipe_export(xml_file) -> dict:
@@ -48,7 +49,8 @@ def main(data_path: str, save_path: str, default_server: str):
 
         files = get_all_files(data_path)
 
-        for file in files:
+        for index in trange(len(files)):
+            file = files[index]
             '''
             _de_292.xml: ['', 'de', '292.xml']
             292.xml: ['292.xml']
