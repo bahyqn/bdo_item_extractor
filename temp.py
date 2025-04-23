@@ -52,12 +52,12 @@ def find_label(xml_file: str, label: str, attrib: str='', several: bool=False) -
 def find_item(xml_file, flag: str=''):
     try:
         root = ET.parse(xml_file).getroot() # 使用 folder_path
-        print(root.tag)
+        # print(root.tag)
         itemName = root.find('itemName')
 
-        if itemName is not None and itemName.text == flag:
+        if (itemName is not None) and (itemName.text.lower().find(flag.lower()) != -1):
             print(f"item: {flag}")
-            print(os.path.join(folder_path, xml_file))
+            print(f"{os.path.join(folder_path, xml_file)}, {itemName.text}")
             sys.exit(0)
     except ET.ParseError as e:
         print(f"Error parsing {xml_file}: {e}")
@@ -143,9 +143,10 @@ if __name__ == '__main__':
         if len(temp_file) == 1:
             # get_xml_data(os.path.join(folder_path, temp_file[0]))
             # find_item(os.path.join(folder_path, file), 'Melted Iron Shard')
-            # find_item(os.path.join(folder_path, file), 'Angler')
+            # find_item(os.path.join(folder_path, file), 'Mudskipper')
+            find_item(os.path.join(folder_path, file), 'Master Matchlock')
 
-            find_label(xml_file=os.path.join(folder_path, temp_file[0]), label='manufacture', several=True)
+            # find_label(xml_file=os.path.join(folder_path, temp_file[0]), label='manufacture', several=True)
             
             # makelist
             # find_label(xml_file=os.path.join(folder_path, temp_file[0]), label='makelist')
