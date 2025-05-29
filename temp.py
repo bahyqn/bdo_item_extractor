@@ -57,7 +57,7 @@ def find_item(xml_file, flag: str=''):
 
         if (itemName is not None) and (itemName.text.lower().find(flag.lower()) != -1):
             print(f"item: {flag}")
-            print(f"{os.path.join(folder_path, xml_file)}, {itemName.text}")
+            print(f"{os.path.join(folder_path, xml_file)} ------------------> {itemName.text}")
             sys.exit(0)
     except ET.ParseError as e:
         print(f"Error parsing {xml_file}: {e}")

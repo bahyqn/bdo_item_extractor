@@ -22,12 +22,14 @@ def recipe_export(xml_file) -> dict:
             func = getattr(md, f"{tag.tag}")
 
             if isinstance(func(tag), list):
-                if tag.tag not in data:
+                if check_key(classify, tag.tag)not in data:
                     data[check_key(classify, tag.tag)] = []
+
                 data[check_key(classify, tag.tag)].extend(func(tag))
+
             else:
                 data[check_key(classify, tag.tag)] = func(tag)
-        
+
         return data
     except ET.ParseError as e:
         print(f"Error parsing {xml_file}: {e}")
