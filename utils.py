@@ -97,8 +97,14 @@ def get_all_files(folder_path: str):
 def insert_index_search(dic: dict, server: str, data: dict) -> None:
     if data['xml'] == 'itemInfo':
         if not dic.get(server):
-            dic[server] = {}
-        dic[server][str(data.get('itemKey'))] = data.get('itemName')
+            dic[server] = []
+        dic[server].append({
+            'id': data.get('itemKey'),
+            'item': data.get('itemName'),
+            'img': data.get('itemIcon')
+        })
+        #     dic[server] = {}
+        # dic[server][str(data.get('itemKey'))] = data.get('itemName')
 
 def insert_index_categories(tag_list: list, class_dict: dict, data: dict, server: str, classify: dict) -> None:
     '''
