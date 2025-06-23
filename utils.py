@@ -72,7 +72,11 @@ def remove_double_braces_to_list(text: str, delimiter: str = '\n'):
 def check_key(ck_dict: dict, tag: str) -> str:
     return ck_dict.get(tag) if ck_dict.get(tag) else tag
 
+<<<<<<< HEAD
 def create_json(path: str, item_key: str, data: dict | object | list):
+=======
+def create_json(path: str, item_key: str, data: dict | object):
+>>>>>>> 2cd30836c7f75ab1e1f5125184e5c3fde5bc5b3d
     save_file_path = os.path.join(path, item_key+'.json')
     os.makedirs(path, exist_ok=True)
 

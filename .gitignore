@@ -11,9 +11,13 @@ json
 node_modules
 dist
 dist-ssr
+<<<<<<< HEAD
 xml
 *.local
 i18n
+=======
+*.local
+>>>>>>> 2cd30836c7f75ab1e1f5125184e5c3fde5bc5b3d
 
 # Editor directories and files
 .vscode/*

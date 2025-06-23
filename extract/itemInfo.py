@@ -32,13 +32,21 @@ def makelist(tag) -> list:
 
 def manufacture(tag) -> list:
     data = {
+<<<<<<< HEAD
         'action': '',
+=======
+        'aciton': '',
+>>>>>>> 2cd30836c7f75ab1e1f5125184e5c3fde5bc5b3d
         'item': []
     }
     ac = tag.attrib.get("action", "Unknown")
     if ac != 'unknown':
         temp_ac = [s.capitalize() for s in ac.split('_')[1:]]
+<<<<<<< HEAD
         data['action'] = " ".join(temp_ac)
+=======
+        data['aciton'] = " ".join(temp_ac)
+>>>>>>> 2cd30836c7f75ab1e1f5125184e5c3fde5bc5b3d
     for item in tag.findall('item'):
         data['item'].append(get_items(item))
     return [data]

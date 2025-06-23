@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>293</itemKey>
+	<itemName>Schwacher Ursprung des Klaren Wassers</itemName>
+	<itemIcon>00000293.png</itemIcon>
+	<itemDesc>Eine Sphäre, die vorzeitliches kühles Wasser beherbergt. Sie wird dazu benutzt, das Leuchtsignal der Vorzeitlichen herzustellen.\n\n– Verwendungszweck: Leuchtsignal der Vorzeitlichen herstellen\n\n– Herstellung: Wählt Einfache Alchemie aus dem Verarbeitungsmenü (L).\n\n– Material:\n1 x Schwacher Ursprung des Klaren Wassers\n1 x Schwacher Ursprung der Purpurnen Flamme\n1 x Schwacher Ursprung der Erde\n4 x Urgeiststaub\n\n– Beschaffung: Wählt Einfache Alchemie aus dem Verarbeitungsmenü (L) und verarbeitet Folgendes.\n2 x Essenz der Natur\n10 x Pulver der Dunkelheit</itemDesc>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>4801</id>
+			<name>Pulver der Dunkelheit</name>
+			<icon>00004801.png</icon>
+			<desc>Eine natürliche Ressource, die durch Sammeln erhalten wurde. Sie kann verwendet werden, um andere Materialien durch Alchemie zu verändern.\n– Beschaffung: Kann mit geringer Wahrscheinlichkeit aus Steinen erhalten werden.</desc>
+			<count>10</count>
+		</item>
+		<item>
+			<id>5206</id>
+			<name>Essenz der Natur</name>
+			<icon>00005206.png</icon>
+			<desc>Eine aus der Frucht der Natur extrahierte Essenz, die selten in einem Garten gefunden werden kann. Sie wird als Zutat in der Alchemie verwendet.\n\n– Beschaffung:\nKann am Alchemietisch im Wohnsitz hergestellt werden, wenn Ihr mindestens Lehrling 1 bei der Alchemie erreicht habt.</desc>
+			<count>2</count>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>292</id>
+			<name>Leuchtsignal der Vorzeitlichen</name>
+			<icon>00000292.png</icon>
+			<desc>Ein Leuchtsignal das eine hell strahlende Lichtexplosion freisetzt.\n\nBetäubt eine Zeit lang Gegner in der Nähe, wenn es im Altar des Blutes benutzt wird.\n– Hat außerhalb des Altars des Blutes keine Wirkung.\n\n– Abklingzeit: 30 Sek.\n\n– Beschaffung: Verarbeitet Schwacher Ursprung des Klaren Wassers, Schwacher Ursprung der Purpurnen Flamme, Schwacher Ursprung der Erde und 4 x Urgeiststaub mit Einfacher Alchemie.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

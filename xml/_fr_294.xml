@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>294</itemKey>
+	<itemName>Origines estompées de la flamme pourpre</itemName>
+	<itemIcon>00000294.png</itemIcon>
+	<itemDesc>Une sphère contenant d&apos;anciennes flammes ardentes pouvant servir à fabriquer une Fusée éclairante des anciens.\n\n- Utilisation : fabriquer Fusée éclairante des anciens\n\n- Fabrication : Transformation (L) - Alchimie simple\n\n- Matériaux\nOrigines estompées de l&apos;eau claire x1\nOrigines estompées de la flamme pourpre x1\nOrigines estompées de la terre x1\nPoussière d&apos;esprit ancien x4\n\n- Obtention : Transformation (L) - Alchimie simple sur les objets ci-dessous\nEssence de la nature x2\nPoudre de flamme x10</itemDesc>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>4802</id>
+			<name>Poudre de flamme</name>
+			<icon>00004802.png</icon>
+			<desc>Un ingrédient naturel capable de changer la forme d&apos;autres matériaux grâce à l&apos;alchimie.\n– Obtention : faible chance de l&apos;obtenir auprès de roches.</desc>
+			<count>10</count>
+		</item>
+		<item>
+			<id>5206</id>
+			<name>Essence de la nature</name>
+			<icon>00005206.png</icon>
+			<desc>Essence extraite d&apos;un Fruit de la nature qui est parfois obtenu dans un jardin. Elle est utilisée comme ingrédient en alchimie.\n– Obtention : elle peut être produite à l&apos;aide de l&apos;outil d&apos;alchimie dans votre résidence à partir du niveau d&apos;alchimie Apprenti 1.</desc>
+			<count>2</count>
+		</item>
+	</manufacture>
+	<makelist>
+		<item>
+			<id>292</id>
+			<name>Fusée éclairante des anciens</name>
+			<icon>00000292.png</icon>
+			<desc>Une fusée éclairante produisant une explosion de lumière vive.\n\n– Cet objet, utilisable à l&apos;Autel sanglant, permet d&apos;étourdir pendant un certain temps les ennemis se trouvant à proximité.\n– Objet sans effet en dehors de l&apos;Autel sanglant.\n\n– Temps de recharge : 2 minutes\n\n– Obtention : transformez Origines estompées de l&apos;eau claire, Origines estompées de la flamme pourpre, Origines estompées de la terre, Poussière d&apos;esprit ancien x4 en utilisant l&apos;alchimie simple.</desc>
+		</item>
+	</makelist>
+</itemInfo>
+

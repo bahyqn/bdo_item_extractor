@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<productNote>
+	<string>
+		<message index="0" name="Nodo"/>
+		<message index="1" name="Pesca"/>
+		<message index="2" name="Alquimia"/>
+		<message index="3" name="Cocina"/>
+		<message index="4" name="Elaboración"/>
+		<message index="5" name="Manufactura"/>
+		<message index="6" name="Recolección"/>
+		<message index="10" name="Secar"/>
+		<message index="11" name="Machacar"/>
+		<message index="12" name="Mezclar"/>
+		<message index="13" name="Fundir"/>
+		<message index="14" name="Filtrar"/>
+		<message index="15" name="Cortar leña"/>
+		<message index="16" name="Cocina imperial"/>
+		<message index="17" name="Alquimia imperial"/>
+		<message index="18" name="Producción"/>
+		<message index="20" name="Producción de nodo de exploración"/>
+		<message index="21" name="Vendedor"/>
+		<message index="22" name="Uso"/>
+		<message index="23" name=": se puede fabricar"/>
+		<message index="24" name="Componente principal:"/>
+		<message index="100" name="Nombre del objeto"/>
+		<message index="101" name="Lista de objetos"/>
+		<message index="102" name="Información de objeto"/>
+		<message index="103" name="Obtención"/>
+		<message index="200" name="Buscar término"/>
+		<message index="201" name="Cargando..."/>
+		<message index="202" name="No hay información del objeto."/>
+		<message index="203" name="Los caracteres especiales no se pueden incluir en la búsqueda de términos."/>
+		<message index="204" name="Escribe un término de búsqueda válido."/>
+		<message index="205" name="No hay resultados de búsqueda."/>
+		<message index="206" name="Error de grado:"/>
+		<message index="207" name="Buscar"/>
+		<message index="9030" name="Fábrica de pescado"/>
+		<message index="9022" name="Banco de inversión"/>
+		<message index="9014" name="Taller de carromatos"/>
+		<message index="906" name="Taller de artesanía"/>
+		<message index="9029" name="Taller de O'draxxia"/>
+		<message index="9021" name="Taller de partes de carromatos"/>
+		<message index="9013" name="Astillero"/>
+		<message index="905" name="Armería"/>
+		<message index="9024" name="Taller de Florin"/>
+		<message index="9016" name="Taller de muebles"/>
+		<message index="908" name="Joyería"/>
+		<message index="900" name="Residencia"/>
+		<message index="9032" name="Fábrica de cultivos"/>
+		<message index="9031" name="Fábrica de setas"/>
+		<message index="9023" name="Alfarería"/>
+		<message index="9015" name="Arrería"/>
+		<message index="907" name="Taller de carpintería"/>
+		<message index="9026" name="Taller de Arehaza"/>
+		<message index="9018" name="Sastrería"/>
+		<message index="9010" name="Refinería"/>
+		<message index="902" name="Almacén"/>
+		<message index="9034" name="Fragua"/>
+		<message index="9025" name="Taller de Tarif"/>
+		<message index="9017" name="Fábrica de especialidades"/>
+		<message index="909" name="Taller de herramientas"/>
+		<message index="901" name="Alojamiento para trabajadores"/>
+		<message index="9033" name="Carpintería"/>
+		<message index="9028" name="Taller de Grana"/>
+		<message index="9020" name="Astillero"/>
+		<message index="9012" name="Taller de cañones"/>
+		<message index="904" name="Armería"/>
+		<message index="9027" name="Taller de Duvencrune"/>
+		<message index="9019" name="Armería (asedio)"/>
+		<message index="9011" name="Forja"/>
+		<message index="903" name="Rancho de caballos"/>
+		<message index="9035" name="Lozas"/>
+	</string>
+</productNote>
+

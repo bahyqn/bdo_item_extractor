@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemInfo>
+	<itemKey>292</itemKey>
+	<itemName>Bengala de los antiguos</itemName>
+	<itemIcon>00000292.png</itemIcon>
+	<itemDesc>Al explotar, esta bengala emite una luz muy brillante.\n\n- Aturde temporalmente a los enemigos cercanos al usarse en el Altar de Sangre.\n• No funciona fuera del Altar de Sangre\n- Tiempo de reutilización: \n2 min\n- Cómo obtener: Selecciona Alquimia simple y añade \n[Protorigen del Agua] x1, [Protorigen del Fuego] x1, [Protorigen de la Tierra] x1 y [Polvo de espíritu antiguo] x4.</itemDesc>
+	<manufacture action="MANUFACTURE_ALCHEMY">
+		<item>
+			<id>293</id>
+			<name>Protorigen del Agua</name>
+			<icon>00000293.png</icon>
+			<desc>Una esfera que contiene la fría agua de los antiguos. Es uno de los componentes de la bengala de los antiguos.\n\n- Uso: fabricar [Bengala de los antiguos]\n\n- Cómo fabricar: Alquimia simple en el menú de Elaboración ({KeyBind:Manufacture})\n\n- Componentes\n[Protorigen del Agua] x1\n[Protorigen del Fuego] x1\n[Protorigen de la Tierra] x1\n[Polvo de espíritu antiguo] x4\n\n- Cómo obtener: Alquimia simple en el menú de Elaboración ({KeyBind:Manufacture}) y añade los siguientes materiales\n[Esencia de la naturaleza] x2\n[Polvo de tinieblas] x10</desc>
+			<count>1</count>
+		</item>
+		<item>
+			<id>294</id>
+			<name>Protorigen del Fuego</name>
+			<icon>00000294.png</icon>
+			<desc>Una esfera que contiene el abrasador fuego de los antiguos. Es uno de los componentes de la bengala de los antiguos.\n\n- Uso: fabricar [Bengala de los antiguos]\n\n- Cómo fabricar: Alquimia simple en el menú de Elaboración ({KeyBind:Manufacture})\n\n- Componentes\n[Protorigen del Agua] x1\n[Protorigen del Fuego] x1\n[Protorigen de la Tierra] x1\n[Polvo de espíritu antiguo] x4\n\n- Cómo obtener: Alquimia simple en el menú de Elaboración ({KeyBind:Manufacture}) y añade los siguientes materiales\n[Esencia de la naturaleza] x2\n[Polvos flamígeros] x10</desc>
+			<count>1</count>
+		</item>
+		<item>
+			<id>295</id>
+			<name>Protorigen de la Tierra</name>
+			<icon>00000295.png</icon>
+			<desc>Una esfera que contiene el fértil suelo donde creció la civilización de los antiguos. Es uno de los componentes de la bengala de los antiguos.\n\n- Uso: fabricar [Bengala de los antiguos]\n\n- Cómo fabricar: Alquimia simple en el menú de Elaboración ({KeyBind:Manufacture})\n\n- Componentes\n[Protorigen del Agua] x1\n[Protorigen del Fuego] x1\n[Protorigen de la Tierra] x1\n[Polvo de espíritu antiguo] x4\n\n- Cómo obtener: Alquimia simple en el menú de Elaboración ({KeyBind:Manufacture}) y añade los siguientes materiales\n[Esencia de la naturaleza] x2\n[Polvo de tierra] x10</desc>
+			<count>1</count>
+		</item>
+		<item>
+			<id>721002</id>
+			<name>Polvo de espíritu antiguo</name>
+			<icon>00721002.png</icon>
+			<desc>Polvo que puede usarse para purgar la energía oscura.\n\n- Uso: fabricar [Caphranita]\n\n- Cómo fabricar: Alquimia simple en el menú de Elaboración ({KeyBind:Manufacture})\n\n- Componentes:\n[Polvo de espíritu antiguo] x5\n[Piedra oscura] x1\n\n- Componentes para 10 unidades:\n[Polvo de espíritu antiguo] x50\n[Piedra oscura] x10\n[Piedra oscura en polvo] x1\n\n- Componentes para 100 unidades:\n[Polvo de espíritu antiguo] x500\n[Piedra oscura] x100\n[Catalizador en polvo puro] x1\n\n- Cómo obtener: mediante misiones, recolectando, y derrotando enemigos</desc>
+			<count>4</count>
+		</item>
+	</manufacture>
+</itemInfo>
+
