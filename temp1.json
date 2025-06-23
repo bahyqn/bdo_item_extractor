@@ -1,0 +1,93 @@
+{
+  "itemInfo": {
+    "itemKey": {},
+    "itemName": {},
+    "itemIcon": {},
+    "itemDesc": {},
+    "shop": { "character": { "name": {} } },
+    "house": {
+      "attrib": { "type": "4" },
+      "item": { "id": {}, "name": {}, "icon": {}, "desc": {}, "count": {} }
+    },
+    "makelist": { "item": { "id": {}, "name": {}, "icon": {}, "desc": {} } },
+    "manufacture": {
+      "attrib": { "action": "MANUFACTURE_HEAT" },
+      "item": { "id": {}, "name": {}, "icon": {}, "desc": {}, "count": {} }
+    },
+    "alchemy": {
+      "item": { "id": {}, "name": {}, "icon": {}, "desc": {}, "count": {} }
+    },
+    "collect": { "character": { "name": {} } },
+    "fishing": {},
+    "node": { "attrib": { "region": "Coastal Cave - Mining" } },
+    "cook": {
+      "item": { "id": {}, "name": {}, "icon": {}, "desc": {}, "count": {} }
+    }
+  },
+
+  "itemmaking": {
+    "nodeProduct": {
+      "item": {
+        "attrib": {
+          "key": "55799",
+          "name": "Abun Wooden Doll",
+          "icon": "00055799.png"
+        }
+      }
+    },
+    "fishing": {
+      "item": {
+        "attrib": {
+          "key": "5833",
+          "name": "Abyssal Gem",
+          "icon": "00005833.png"
+        }
+      }
+    },
+    "alchemy": {
+      "item": {
+        "attrib": {
+          "key": "695",
+          "name": "Agile Seal Elixir",
+          "icon": "00000632.png"
+        }
+      }
+    },
+    "cooking": {
+      "item": {
+        "attrib": {
+          "key": "9205",
+          "name": "Aloe Cookie",
+          "icon": "00009205.png"
+        }
+      }
+    },
+    "manufacture": {
+      "item": {
+        "attrib": {
+          "key": "9746",
+          "name": "Abyssal Brass Ingot",
+          "icon": "00009746.png"
+        }
+      }
+    },
+    "houseCraft": {
+      "item": {
+        "attrib": {
+          "key": "4681",
+          "name": "Acacia Plywood",
+          "icon": "00004681.png"
+        }
+      }
+    },
+    "collect": {
+      "item": {
+        "attrib": { "key": "6518", "name": "Abalone", "icon": "00006518.png" }
+      }
+    }
+  },
+  
+  "productNote": {
+    "string": { "message": { "attrib": { "index": "0", "name": "Node" } } }
+  }
+}

@@ -1,0 +1,407 @@
+{
+    "itemInfo": {
+        "itemKey": "292",
+        "itemName": "",
+        "itemIcon": "",
+        "itemDesc": "",
+        "Shop": [
+            "Wolim",
+            "Maksoon",
+            "Ahryung",
+            "Gyehyang",
+            "Mihyang",
+            "Yeongsim",
+            "Choee"
+        ],
+        "House": [
+            {
+                "type": "30",
+                "item": [
+                    {
+                        "id": "8681",
+                        "name": "Dried Common Bleak",
+                        "icon": "00008681.png",
+                        "desc": "A dried common bleak obtained through drying.\n※ Drying decreases the value of the fish.",
+                        "count": "10"
+                    },
+                    {
+                        "id": "4901",
+                        "name": "Black Stone Powder",
+                        "icon": "00004901.png",
+                        "desc": "A basic ingredient used in Crafting.\n\n- Usage #1: Used as an ingredient for crafting equipment, processing, and other crafting skills.\n\n- How to Obtain #1: Processing Grinding with certain Crystals and Black Stone\n\n- How to Obtain #2: Crafting at a Refinery",
+                        "count": "1"
+                    }
+                ]
+            },
+            {
+                "type": "30",
+                "item": [
+                    {
+                        "id": "8681",
+                        "name": "Dried Common Bleak",
+                        "icon": "00008681.png",
+                        "desc": "A dried common bleak obtained through drying.\n※ Drying decreases the value of the fish.",
+                        "count": "10"
+                    },
+                    {
+                        "id": "4901",
+                        "name": "Black Stone Powder",
+                        "icon": "00004901.png",
+                        "desc": "A basic ingredient used in Crafting.\n\n- Usage #1: Used as an ingredient for crafting equipment, processing, and other crafting skills.\n\n- How to Obtain #1: Processing Grinding with certain Crystals and Black Stone\n\n- How to Obtain #2: Crafting at a Refinery",
+                        "count": "1"
+                    }
+                ]
+            },
+            {
+                "type": "30",
+                "item": [
+                    {
+                        "id": "8681",
+                        "name": "Dried Common Bleak",
+                        "icon": "00008681.png",
+                        "desc": "A dried common bleak obtained through drying.\n※ Drying decreases the value of the fish.",
+                        "count": "10"
+                    },
+                    {
+                        "id": "4901",
+                        "name": "Black Stone Powder",
+                        "icon": "00004901.png",
+                        "desc": "A basic ingredient used in Crafting.\n\n- Usage #1: Used as an ingredient for crafting equipment, processing, and other crafting skills.\n\n- How to Obtain #1: Processing Grinding with certain Crystals and Black Stone\n\n- How to Obtain #2: Crafting at a Refinery",
+                        "count": "1"
+                    }
+                ]
+            },
+            {
+                "type": "30",
+                "item": [
+                    {
+                        "id": "8681",
+                        "name": "Dried Common Bleak",
+                        "icon": "00008681.png",
+                        "desc": "A dried common bleak obtained through drying.\n※ Drying decreases the value of the fish.",
+                        "count": "10"
+                    },
+                    {
+                        "id": "4901",
+                        "name": "Black Stone Powder",
+                        "icon": "00004901.png",
+                        "desc": "A basic ingredient used in Crafting.\n\n- Usage #1: Used as an ingredient for crafting equipment, processing, and other crafting skills.\n\n- How to Obtain #1: Processing Grinding with certain Crystals and Black Stone\n\n- How to Obtain #2: Crafting at a Refinery",
+                        "count": "1"
+                    }
+                ]
+            },
+            {
+                "type": "30",
+                "item": [
+                    {
+                        "id": "8681",
+                        "name": "Dried Common Bleak",
+                        "icon": "00008681.png",
+                        "desc": "A dried common bleak obtained through drying.\n※ Drying decreases the value of the fish.",
+                        "count": "10"
+                    },
+                    {
+                        "id": "4901",
+                        "name": "Black Stone Powder",
+                        "icon": "00004901.png",
+                        "desc": "A basic ingredient used in Crafting.\n\n- Usage #1: Used as an ingredient for crafting equipment, processing, and other crafting skills.\n\n- How to Obtain #1: Processing Grinding with certain Crystals and Black Stone\n\n- How to Obtain #2: Crafting at a Refinery",
+                        "count": "1"
+                    }
+                ]
+            },
+            {
+                "type": "30",
+                "item": [
+                    {
+                        "id": "8681",
+                        "name": "Dried Common Bleak",
+                        "icon": "00008681.png",
+                        "desc": "A dried common bleak obtained through drying.\n※ Drying decreases the value of the fish.",
+                        "count": "10"
+                    },
+                    {
+                        "id": "4901",
+                        "name": "Black Stone Powder",
+                        "icon": "00004901.png",
+                        "desc": "A basic ingredient used in Crafting.\n\n- Usage #1: Used as an ingredient for crafting equipment, processing, and other crafting skills.\n\n- How to Obtain #1: Processing Grinding with certain Crystals and Black Stone\n\n- How to Obtain #2: Crafting at a Refinery",
+                        "count": "1"
+                    }
+                ]
+            }
+        ],
+        "Makelist": [
+            {
+                "id": "2381",
+                "name": "Kamasylvian Commander's Chair",
+                "icon": "In_Cam_Furniture_chair_02.png",
+                "desc": "A type of chair that was previously made for a military commander of Kamasylvia, and is now available for purchase. It is a very luxurious chair. Rumor has it that this chair was made by an artisan for Hazel Azealia, the Acher military representative. The chair was designed so that it would seem authoritative."
+            },
+            {
+                "id": "2382",
+                "name": "Kamasylvian Squared Chair",
+                "icon": "In_Cam_Furniture_chair_03.png",
+                "desc": "As the name already says every feature of the Kamasylvia Squared Chair has the simple shape of a square. This chair was designed to be easily carried around and to fit everywhere. It comes in both a bright and a dark finish."
+            },
+            {
+                "id": "2383",
+                "name": "Kamasylvian Momellies Chair",
+                "icon": "In_Cam_Furniture_chair_05.png",
+                "desc": "It is said that this was librarian Momellies's favorite chair. It is made by her Fadus friend, from an old ladder. The backrest reflects the beautiful architecture of Grána."
+            }
+        ],
+        "Processing": [
+            {
+                "aciton": "Guild",
+                "item": [
+                    {
+                        "id": "4401",
+                        "name": "Rough Ruby",
+                        "icon": "00004401.png",
+                        "desc": "A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing. Rough Ruby requires a certain level of skill to collect.\n- How to Obtain: It can be directly obtained from rock containing Gemstones.",
+                        "count": "2"
+                    },
+                    {
+                        "id": "5003",
+                        "name": "Pine Sap",
+                        "icon": "00005003.png",
+                        "desc": "A natural resource that can be used to alter other resources through Alchemy.\n- How to Obtain: It can be obtained from Pine Trees with a Fluid Collector.",
+                        "count": "2"
+                    }
+                ]
+            },
+            {
+                "aciton": "Guild",
+                "item": [
+                    {
+                        "id": "4401",
+                        "name": "Rough Ruby",
+                        "icon": "00004401.png",
+                        "desc": "A natural resource obtained through Gathering and used as a material for Crafting. It can be modified using Alchemy or Processing. Rough Ruby requires a certain level of skill to collect.\n- How to Obtain: It can be directly obtained from rock containing Gemstones.",
+                        "count": "20"
+                    },
+                    {
+                        "id": "5003",
+                        "name": "Pine Sap",
+                        "icon": "00005003.png",
+                        "desc": "A natural resource that can be used to alter other resources through Alchemy.\n- How to Obtain: It can be obtained from Pine Trees with a Fluid Collector.",
+                        "count": "20"
+                    },
+                    {
+                        "id": "820907",
+                        "name": "[Guild] Old Moon Reagent",
+                        "icon": "00820907.png",
+                        "desc": "An effective catalyst developed by the Old Moon Guild used for mass processing. Used as a material for guild processing.\n\n- Usage: Guild Processing\n\n- Crafting Method: Processing - Guild Processing\n\n- Crafting Materials:\nGuild Crafting Materials: x50\n[Guild] Old Moon Reagent x1\n\n- How to Obtain: Guild Shop",
+                        "count": "1"
+                    }
+                ]
+            }
+        ],
+        "Alchemy": [
+            [
+                {
+                    "id": "5302",
+                    "name": "Pure Powder Reagent",
+                    "icon": "00005302.png",
+                    "desc": "A catalyst that can be applied to various Alchemy mixtures.\n\n- How to Obtain:\n > Crafted via an Alchemy Tool in your residence if at least Alchemy Beginner 1.",
+                    "count": "1"
+                },
+                {
+                    "id": "9015",
+                    "name": "Olive Oil",
+                    "icon": "00009015.png",
+                    "desc": "An ingredient used in Cooking. It can be bought from a Food Vendor or Innkeeper.",
+                    "count": "3"
+                },
+                {
+                    "id": "5600",
+                    "name": "Weeds",
+                    "icon": "00005600.png",
+                    "desc": "It's just a useless weed. You can sell it for a cheap price to merchants.",
+                    "count": "4"
+                },
+                {
+                    "id": "6205",
+                    "name": "Pig Blood",
+                    "icon": "00006201.png",
+                    "desc": "A natural resource that can be used to alter other resources through Alchemy.\n\n- Usage: Sinner's Blood, Dark Pudding, Defense Elixir, etc.\n\n- How to Obtain: Hunt a pig and collect fluid from it.\n\n- Alternative Ingredient: \n  Deer Blood\n  Sheep Blood\n  Ox Blood\n  Waragon Blood\n  Llama Blood\n  Goat Blood",
+                    "count": "2"
+                }
+            ],
+            [
+                {
+                    "id": "5302",
+                    "name": "Pure Powder Reagent",
+                    "icon": "00005302.png",
+                    "desc": "A catalyst that can be applied to various Alchemy mixtures.\n\n- How to Obtain:\n > Crafted via an Alchemy Tool in your residence if at least Alchemy Beginner 1.",
+                    "count": "1"
+                },
+                {
+                    "id": "9015",
+                    "name": "Olive Oil",
+                    "icon": "00009015.png",
+                    "desc": "An ingredient used in Cooking. It can be bought from a Food Vendor or Innkeeper.",
+                    "count": "3"
+                },
+                {
+                    "id": "5439",
+                    "name": "Wild Grass",
+                    "icon": "00005439.png",
+                    "desc": "A natural resource that can be used to alter other resources through Alchemy.\n- How to Obtain: It can be obtained from Wild Herbs using Barehanded Gathering.",
+                    "count": "1"
+                },
+                {
+                    "id": "6205",
+                    "name": "Pig Blood",
+                    "icon": "00006201.png",
+                    "desc": "A natural resource that can be used to alter other resources through Alchemy.\n\n- Usage: Sinner's Blood, Dark Pudding, Defense Elixir, etc.\n\n- How to Obtain: Hunt a pig and collect fluid from it.\n\n- Alternative Ingredient: \n  Deer Blood\n  Sheep Blood\n  Ox Blood\n  Waragon Blood\n  Llama Blood\n  Goat Blood",
+                    "count": "2"
+                }
+            ]
+        ],
+        "Fising": "1",
+        "Gathering": ["Atrocious Tiger", "Tiger"],
+        "Node": [
+            "Bartali Farm - Chicken Meat Production",
+            "Finto Farm - Chicken Meat Production",
+            "Narcion - Chicken Meat Production"
+        ],
+        "Cook": [
+            [
+                {
+                    "id": "9349",
+                    "name": "Chanterelle Risotto",
+                    "icon": "00009349.png",
+                    "desc": "Risotto made with grains and special Chanterelle mushroom sauce.\n\n- Effects:\n   Processing EXP +8%\n\n- Duration: 90 min\n- Cooldown: 30 min\n\n- How to Obtain:\n > Craft via a Cooking Utensil in your residence if at least Cooking Professional 1.\n > There is a slight chance of obtaining Aromatic Chanterelle Risotto when making Chanterelle Risotto if at least Cooking Master 1.",
+                    "count": "1"
+                },
+                {
+                    "id": "9341",
+                    "name": "Chanterelle and Potato Stew",
+                    "icon": "00009341.png",
+                    "desc": "A stew made of fragrant Chanterelle mushrooms and chunky Potatoes.\n\n- Effects:\n   Max HP +100\n\n- Duration: 60 min\n- Cooldown: 30 min\n\n- How to Obtain:\n > Craft via a Cooking Utensil in your residence if at least Cooking Apprentice 6.\n > There is a slight chance of obtaining Nutritious Chanterelle and Potato Stew when making Chanterelle and Potato Stew if at least Cooking Professional 6.",
+                    "count": "1"
+                },
+                {
+                    "id": "9343",
+                    "name": "Stir-Fried Chanterelle and Meat",
+                    "icon": "00009343.png",
+                    "desc": "A dish made by stir-frying Chanterelle mushrooms with meat.\n\n- Effects:\n   Processing Success Rate +8%\n\n- Duration: 60 min\n- Cooldown: 30 min\n\n- How to Obtain:\n > Craft via a Cooking Utensil in your residence if at least Cooking Apprentice 6.\n > There is a slight chance of obtaining Hearty Stir-Fried Chanterelle and Meat when making Stir-fried Chanterelle and Meat if at least Cooking Professional 6.",
+                    "count": "1"
+                },
+                {
+                    "id": "9376",
+                    "name": "Fruit Sherbet",
+                    "icon": "00009376.png",
+                    "desc": "A dessert made by adding sugar and fruits to Everfrost ice.\n\n- Effects:\n   Higher Grade Knowledge Gain Chance +2%\n\n- Duration: 90 min\n- Cooldown: 30 min\n\n- How to Obtain:\n > Craft via a Cooking Utensil in your residence if at least Cooking Artisan 1.",
+                    "count": "2"
+                },
+                {
+                    "id": "9367",
+                    "name": "Mesima Rice Wine",
+                    "icon": "00009367.png",
+                    "desc": "Rice wine flavored with Mesima mushrooms.\n\n- Effects:\n   Weight Limit +80LT\n\n- Duration: 60 min\n- Cooldown: 30 min\n\n- How to Obtain:\n > Craft via a Cooking Utensil in your residence if at least Cooking Skilled 6.\n > There is a slight chance of obtaining Mild Mesima Rice Wine when making Mesima Rice Wine if at least Cooking Artisan 1.",
+                    "count": "2"
+                }
+            ],
+            [
+                {
+                    "id": "9350",
+                    "name": "Aromatic Chanterelle Risotto",
+                    "icon": "00009350.png",
+                    "desc": "Risotto made from grains and a special sauce that bears the heavenly aroma of Chanterelle mushrooms\n\n- Effects:\n   Processing EXP +8%\n\n- Duration: 120 min\n- Cooldown: 30 min\n\n- How to Obtain:\n > Craft via a Cooking Utensil in your residence if at least Cooking Professional 1.\n > There is a slight chance of obtaining Aromatic Chanterelle Risotto when making Chanterelle Risotto if at least Cooking Master 1.",
+                    "count": "1"
+                },
+                {
+                    "id": "9341",
+                    "name": "Chanterelle and Potato Stew",
+                    "icon": "00009341.png",
+                    "desc": "A stew made of fragrant Chanterelle mushrooms and chunky Potatoes.\n\n- Effects:\n   Max HP +100\n\n- Duration: 60 min\n- Cooldown: 30 min\n\n- How to Obtain:\n > Craft via a Cooking Utensil in your residence if at least Cooking Apprentice 6.\n > There is a slight chance of obtaining Nutritious Chanterelle and Potato Stew when making Chanterelle and Potato Stew if at least Cooking Professional 6.",
+                    "count": "1"
+                },
+                {
+                    "id": "9343",
+                    "name": "Stir-Fried Chanterelle and Meat",
+                    "icon": "00009343.png",
+                    "desc": "A dish made by stir-frying Chanterelle mushrooms with meat.\n\n- Effects:\n   Processing Success Rate +8%\n\n- Duration: 60 min\n- Cooldown: 30 min\n\n- How to Obtain:\n > Craft via a Cooking Utensil in your residence if at least Cooking Apprentice 6.\n > There is a slight chance of obtaining Hearty Stir-Fried Chanterelle and Meat when making Stir-fried Chanterelle and Meat if at least Cooking Professional 6.",
+                    "count": "1"
+                },
+                {
+                    "id": "9376",
+                    "name": "Fruit Sherbet",
+                    "icon": "00009376.png",
+                    "desc": "A dessert made by adding sugar and fruits to Everfrost ice.\n\n- Effects:\n   Higher Grade Knowledge Gain Chance +2%\n\n- Duration: 90 min\n- Cooldown: 30 min\n\n- How to Obtain:\n > Craft via a Cooking Utensil in your residence if at least Cooking Artisan 1.",
+                    "count": "2"
+                },
+                {
+                    "id": "9367",
+                    "name": "Mesima Rice Wine",
+                    "icon": "00009367.png",
+                    "desc": "Rice wine flavored with Mesima mushrooms.\n\n- Effects:\n   Weight Limit +80LT\n\n- Duration: 60 min\n- Cooldown: 30 min\n\n- How to Obtain:\n > Craft via a Cooking Utensil in your residence if at least Cooking Skilled 6.\n > There is a slight chance of obtaining Mild Mesima Rice Wine when making Mesima Rice Wine if at least Cooking Artisan 1.",
+                    "count": "2"
+                }
+            ]
+        ]
+    },
+
+    "itemmaking": {
+        "nodeProduct": [
+            {
+                "key": "55799",
+                "name": "Abun Wooden Doll",
+                "icon": "00055799.png"
+            }
+        ],
+        "fishing": [
+            {
+                "key": "",
+                "name": "",
+                "icon": ""
+            }
+        ],
+        "alchemy": [
+            {
+                "key": "",
+                "name": "",
+                "icon": ""
+            }
+        ],
+        "cook": [
+            {
+                "key": "",
+                "name": "",
+                "icon": ""
+            }
+        ],
+        "manufacture": [
+            {
+                "key": "",
+                "name": "",
+                "icon": ""
+            }
+        ],
+        "houseCraft": [
+            {
+                "key": "",
+                "name": "",
+                "icon": ""
+            }
+        ],
+        "collect": [
+            {
+                "key": "",
+                "name": "",
+                "icon": ""
+            }
+        ]
+    },
+    "productNode": [
+        {
+            "index": "0",
+            "name": "Node"
+        },
+        {
+            "index": "1",
+            "name": "Fishing"
+        }
+    ]
+}
