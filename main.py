@@ -94,8 +94,8 @@ if __name__ == '__main__':
     data_path = r''
     '''
     # data_path: str = './xml'
+    # save_path = r'E:\projects\others\bdo_database_capture\json'
     save_path: str = './json'
     default_server: str = 'en'
     data_path = r'E:\paz_extract\ui_data\ui_html\xml\en'
-    # save_path = r'E:\projects\others\bdo_database_capture\json'
     main(data_path, save_path, default_server)
