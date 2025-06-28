@@ -151,7 +151,7 @@
         ],
         "Processing": [
             {
-                "aciton": "Guild",
+                "action": "Guild",
                 "item": [
                     {
                         "id": "4401",
@@ -170,7 +170,7 @@
                 ]
             },
             {
-                "aciton": "Guild",
+                "action": "Guild",
                 "item": [
                     {
                         "id": "4401",

@@ -32,7 +32,7 @@ def makelist(tag) -> list:
 
 def manufacture(tag) -> list:
     data = {
-        'aciton': '',
+        'action': '',
         'item': []
     }
     ac = tag.attrib.get("action", "Unknown")
