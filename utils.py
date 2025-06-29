@@ -108,7 +108,7 @@ def insert_index_search(dic: dict, server: str, data: dict) -> None:
             dic[server] = {}
         dic[server][str(data.get('itemKey'))] = {
             'id': data.get('itemKey'),
-            'item': data.get('itemName'),
+            'value': data.get('itemName'),
             'img': data.get('itemIcon')
         }
 
