@@ -2,7 +2,7 @@ import importlib
 import xml.etree.ElementTree as ET
 import os
 from extract.__init import ItemClass
-from utils import create_json_class2json, get_all_files, insert_index_categories, insert_index_search, split_and_clean_text, remove_double_braces, create_json, classify, check_key
+from utils import create_json_class2json, get_all_files, insert_index_categories, insert_index_search, list_manufacture_action, split_and_clean_text, remove_double_braces, create_json, classify, check_key
 from pathlib import Path
 from tqdm.rich import trange
 
@@ -34,7 +34,7 @@ def recipe_export(xml_file) -> dict:
     except ET.ParseError as e:
         print(f"Error parsing {xml_file}: {e}")
 
-def main(data_path: str, save_path: str, default_server: str):
+def main(data_path: str, save_path: str, default_lang: str):
     '''
     index_search:
         'en': {
@@ -48,8 +48,10 @@ def main(data_path: str, save_path: str, default_server: str):
     try:
         index_search: dict = {}
         index_categories: dict[str, ItemClass] = {}
+        current_lang: str = ''
 
         files = get_all_files(data_path)
+        manufacture_action_set_dict: dict = {}
 
         for index in trange(len(files)):
             file = files[index]
@@ -57,23 +59,21 @@ def main(data_path: str, save_path: str, default_server: str):
             _de_292.xml: ['', 'de', '292.xml']
             292.xml: ['292.xml']
             '''
-            temp_server = file.split('_')
+            temp_lang = file.split('_')
 
-            # print(file)
             item_data = recipe_export(os.path.join(data_path, file))
 
-            if len(temp_server) == 3:
-                # print(f"path: {os.path.join(data_path, temp_list[1])}")
-                # print(f"server: {temp_list[1]}")
-                insert_index_search(index_search, temp_server[1], item_data)
-                create_json(os.path.join(save_path, temp_server[1]), temp_server[-1].split('.')[0], item_data)
-                insert_index_categories(list(item_data.keys()), index_categories, item_data, temp_server[1], classify)
-            elif len(temp_server) == 1:
-                # print(f"path: {os.path.join(data_path, temp_list[0])}")
-                # print(f"server: {default_server}")
-                insert_index_search(index_search, default_server, item_data)
-                create_json(os.path.join(save_path, default_server), temp_server[-1].split('.')[0], item_data)
-                insert_index_categories(list(item_data.keys()), index_categories, item_data, default_server, classify)
+            if len(temp_lang) == 3:
+                current_lang = temp_lang[1]
+            elif len(temp_lang) == 1:
+                current_lang = default_lang
+
+            insert_index_search(index_search, current_lang, item_data)
+            create_json(os.path.join(save_path, current_lang), temp_lang[-1].split('.')[0], item_data)
+            insert_index_categories(list(item_data.keys()), index_categories, item_data, current_lang, classify)
+
+        #     list_manufacture_action(os.path.join(data_path, file), manufacture_action_set_dict, current_lang)
+        # create_json('', 'action_string', manufacture_action_set_dict)
 
         for el in index_search:
             create_json(os.path.join(save_path, el), f"{el}_index_search", index_search[el])
@@ -96,7 +96,7 @@ if __name__ == '__main__':
     # data_path: str = './xml'
     # save_path = r'E:\projects\others\bdo_database_capture\json'
     save_path: str = './json'
-    default_server: str = 'en'
+    default_lang: str = 'en'
     data_path = r'E:\paz_extract\ui_data\ui_html\xml\en'
     # save_path = r'E:\projects\others\bdo_database_capture\json'
-    main(data_path, save_path, default_server)
+    main(data_path, save_path, default_lang)

@@ -8,7 +8,7 @@ def itemName(tag) -> str:
     return tag.text
 
 def itemIcon(tag) -> str:
-    return tag.text
+    return tag.text.lower() 
 
 def itemDesc(tag) -> str:
     return tag.text.replace('\\n', '\n')

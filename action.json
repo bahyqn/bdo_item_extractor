@@ -1,0 +1,250 @@
+{
+    "en": {
+        "MANUFACTURE_HEAT": {
+            "itemKey": "10085",
+            "itemName": "Ultimate Delphad Castillion's Carnage Longsword",
+            "manufacture": "MANUFACTURE_HEAT"
+        },
+        "MANUFACTURE_ALCHEMY": {
+            "itemKey": "1051",
+            "itemName": "Frenzy Draught of Corruption",
+            "manufacture": "MANUFACTURE_ALCHEMY"
+        },
+        "MANUFACTURE_CRAFT": {
+            "itemKey": "11101",
+            "itemName": "Griffon's Helmet",
+            "manufacture": "MANUFACTURE_CRAFT"
+        },
+        "MANUFACTURE_GRIND": {
+            "itemKey": "16001",
+            "itemName": "Black Stone",
+            "manufacture": "MANUFACTURE_GRIND"
+        },
+        "MANUFACTURE_DRY": {
+            "itemKey": "16901",
+            "itemName": "Inorganic Fertilizer",
+            "manufacture": "MANUFACTURE_DRY"
+        },
+        "MANUFACTURE_SHAKE": {
+            "itemKey": "16902",
+            "itemName": "Byproduct Fertilizer",
+            "manufacture": "MANUFACTURE_SHAKE"
+        },
+        "MANUFACTURE_FIREWOOD": {
+            "itemKey": "45509",
+            "itemName": "Timber for Upgrade",
+            "manufacture": "MANUFACTURE_FIREWOOD"
+        },
+        "MANUFACTURE_THINNING": {
+            "itemKey": "4902",
+            "itemName": "Alluvial Gold",
+            "manufacture": "MANUFACTURE_THINNING"
+        },
+        "MANUFACTURE_COOK": {
+            "itemKey": "50804",
+            "itemName": "Stonetail Fodder",
+            "manufacture": "MANUFACTURE_COOK"
+        },
+        "MANUFACTURE_ROYALGIFT_ALCHEMY": {
+            "itemKey": "5301",
+            "itemName": "Clear Liquid Reagent",
+            "manufacture": "MANUFACTURE_ROYALGIFT_ALCHEMY"
+        },
+        "MANUFACTURE_ROYALGIFT_COOK": {
+            "itemKey": "5868",
+            "itemName": "Professional's Satisfying Dinner Meal",
+            "manufacture": "MANUFACTURE_ROYALGIFT_COOK"
+        },
+        "MANUFACTURE_GUILD": {
+            "itemKey": "9902",
+            "itemName": "[Guild] Ink",
+            "manufacture": "MANUFACTURE_GUILD"
+        }
+    },
+    "de": {
+        "MANUFACTURE_HEAT": {
+            "itemKey": "10085",
+            "itemName": "Ultimatives Langschwert: Delphad Castillions Massaker",
+            "manufacture": "MANUFACTURE_HEAT"
+        },
+        "MANUFACTURE_ALCHEMY": {
+            "itemKey": "1051",
+            "itemName": "Verzehrende Arznei der Raserei",
+            "manufacture": "MANUFACTURE_ALCHEMY"
+        },
+        "MANUFACTURE_CRAFT": {
+            "itemKey": "11101",
+            "itemName": "Greifenhelm",
+            "manufacture": "MANUFACTURE_CRAFT"
+        },
+        "MANUFACTURE_GRIND": {
+            "itemKey": "16001",
+            "itemName": "Schwarzstein",
+            "manufacture": "MANUFACTURE_GRIND"
+        },
+        "MANUFACTURE_DRY": {
+            "itemKey": "16901",
+            "itemName": "Anorganischer Dünger",
+            "manufacture": "MANUFACTURE_DRY"
+        },
+        "MANUFACTURE_SHAKE": {
+            "itemKey": "16902",
+            "itemName": "Nebenproduktdünger",
+            "manufacture": "MANUFACTURE_SHAKE"
+        },
+        "MANUFACTURE_FIREWOOD": {
+            "itemKey": "45509",
+            "itemName": "Bauholz zur Verbesserung",
+            "manufacture": "MANUFACTURE_FIREWOOD"
+        },
+        "MANUFACTURE_THINNING": {
+            "itemKey": "4902",
+            "itemName": "Schwemmgold",
+            "manufacture": "MANUFACTURE_THINNING"
+        },
+        "MANUFACTURE_COOK": {
+            "itemKey": "50804",
+            "itemName": "Steinschweiffutter",
+            "manufacture": "MANUFACTURE_COOK"
+        },
+        "MANUFACTURE_ROYALGIFT_ALCHEMY": {
+            "itemKey": "5301",
+            "itemName": "Klarflüssiges Reagenz",
+            "manufacture": "MANUFACTURE_ROYALGIFT_ALCHEMY"
+        },
+        "MANUFACTURE_ROYALGIFT_COOK": {
+            "itemKey": "5868",
+            "itemName": "Zufriedenstellende Abendessen eines Kenners",
+            "manufacture": "MANUFACTURE_ROYALGIFT_COOK"
+        },
+        "MANUFACTURE_GUILD": {
+            "itemKey": "9902",
+            "itemName": "[Gilde] Tinte",
+            "manufacture": "MANUFACTURE_GUILD"
+        }
+    },
+    "fr": {
+        "MANUFACTURE_HEAT": {
+            "itemKey": "10085",
+            "itemName": "Épée longue du carnage ultime de Delphad Castillion",
+            "manufacture": "MANUFACTURE_HEAT"
+        },
+        "MANUFACTURE_ALCHEMY": {
+            "itemKey": "1051",
+            "itemName": "Breuvage de frénésie possédé",
+            "manufacture": "MANUFACTURE_ALCHEMY"
+        },
+        "MANUFACTURE_CRAFT": {
+            "itemKey": "11101",
+            "itemName": "Heaume de griffon",
+            "manufacture": "MANUFACTURE_CRAFT"
+        },
+        "MANUFACTURE_GRIND": {
+            "itemKey": "16001",
+            "itemName": "Pierre noire",
+            "manufacture": "MANUFACTURE_GRIND"
+        },
+        "MANUFACTURE_DRY": {
+            "itemKey": "16901",
+            "itemName": "Engrais minéral",
+            "manufacture": "MANUFACTURE_DRY"
+        },
+        "MANUFACTURE_SHAKE": {
+            "itemKey": "16902",
+            "itemName": "Engrais dérivé",
+            "manufacture": "MANUFACTURE_SHAKE"
+        },
+        "MANUFACTURE_FIREWOOD": {
+            "itemKey": "45509",
+            "itemName": "Bois pour l'amélioration",
+            "manufacture": "MANUFACTURE_FIREWOOD"
+        },
+        "MANUFACTURE_THINNING": {
+            "itemKey": "4902",
+            "itemName": "Or alluvial",
+            "manufacture": "MANUFACTURE_THINNING"
+        },
+        "MANUFACTURE_COOK": {
+            "itemKey": "50804",
+            "itemName": "Fourrage queue-de-pierre",
+            "manufacture": "MANUFACTURE_COOK"
+        },
+        "MANUFACTURE_ROYALGIFT_ALCHEMY": {
+            "itemKey": "5301",
+            "itemName": "Réactif de liquide clair",
+            "manufacture": "MANUFACTURE_ROYALGIFT_ALCHEMY"
+        },
+        "MANUFACTURE_ROYALGIFT_COOK": {
+            "itemKey": "5868",
+            "itemName": "Dîner copieux de professionnel",
+            "manufacture": "MANUFACTURE_ROYALGIFT_COOK"
+        },
+        "MANUFACTURE_GUILD": {
+            "itemKey": "9902",
+            "itemName": "[Guilde] Encre",
+            "manufacture": "MANUFACTURE_GUILD"
+        }
+    },
+    "sp": {
+        "MANUFACTURE_HEAT": {
+            "itemKey": "10085",
+            "itemName": "Espada larga masacradora de Delphad Castillion definitiva",
+            "manufacture": "MANUFACTURE_HEAT"
+        },
+        "MANUFACTURE_ALCHEMY": {
+            "itemKey": "1051",
+            "itemName": "Jarabe del frenesí poseído",
+            "manufacture": "MANUFACTURE_ALCHEMY"
+        },
+        "MANUFACTURE_CRAFT": {
+            "itemKey": "11101",
+            "itemName": "Casco de grifo",
+            "manufacture": "MANUFACTURE_CRAFT"
+        },
+        "MANUFACTURE_GRIND": {
+            "itemKey": "16001",
+            "itemName": "Piedra oscura",
+            "manufacture": "MANUFACTURE_GRIND"
+        },
+        "MANUFACTURE_DRY": {
+            "itemKey": "16901",
+            "itemName": "Fertilizante artificial",
+            "manufacture": "MANUFACTURE_DRY"
+        },
+        "MANUFACTURE_SHAKE": {
+            "itemKey": "16902",
+            "itemName": "Compost",
+            "manufacture": "MANUFACTURE_SHAKE"
+        },
+        "MANUFACTURE_FIREWOOD": {
+            "itemKey": "45509",
+            "itemName": "Madera para mejoras",
+            "manufacture": "MANUFACTURE_FIREWOOD"
+        },
+        "MANUFACTURE_THINNING": {
+            "itemKey": "4902",
+            "itemName": "Oro aluvial",
+            "manufacture": "MANUFACTURE_THINNING"
+        },
+        "MANUFACTURE_COOK": {
+            "itemKey": "50804",
+            "itemName": "Pienso de Colapiedra",
+            "manufacture": "MANUFACTURE_COOK"
+        },
+        "MANUFACTURE_ROYALGIFT_ALCHEMY": {
+            "itemKey": "5301",
+            "itemName": "Catalizador líquido transparente",
+            "manufacture": "MANUFACTURE_ROYALGIFT_ALCHEMY"
+        },
+        "MANUFACTURE_ROYALGIFT_COOK": {
+            "itemKey": "5868",
+            "itemName": "Comilona refinada",
+            "manufacture": "MANUFACTURE_ROYALGIFT_COOK"
+        },
+        "MANUFACTURE_GUILD": {
+            "itemKey": "9902",
+            "itemName": "Hermandad - Tinta",
+            "manufacture": "MANUFACTURE_GUILD"
+        }
+    }
+}

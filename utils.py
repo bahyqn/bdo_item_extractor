@@ -4,6 +4,7 @@ import re
 from functools import wraps
 from extract.__init import ItemClass
 from pathlib import Path
+import xml.etree.ElementTree as ET
 
 classify = {
             'shop': 'Shop',
@@ -74,7 +75,8 @@ def check_key(ck_dict: dict, tag: str) -> str:
 
 def create_json(path: str, item_key: str, data: dict | object):
     save_file_path = os.path.join(path, item_key+'.json')
-    os.makedirs(path, exist_ok=True)
+    if path:
+        os.makedirs(path, exist_ok=True)
 
     with open(save_file_path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=4, ensure_ascii=False)
@@ -157,3 +159,17 @@ def insert_index_categories(tag_list: list, class_dict: dict, data: dict, server
                         'itemName': data.get('itemName'),
                         'itemIcon': data.get('itemIcon') or '',
                     })
+
+def list_manufacture_action(xml_file: str, manufacture_action_set_dict: dict, lang: str) -> None:
+    if lang not in manufacture_action_set_dict:
+        manufacture_action_set_dict[lang] = {}
+
+    root = ET.parse(xml_file).getroot()
+    for el in root.findall('manufacture'):
+        action = el.attrib.get('action', 'unknown')
+        if action != 'unknown' and action not in manufacture_action_set_dict[lang]:
+            manufacture_action_set_dict[lang][action] = {
+                'itemKey': root.find('itemKey').text,
+                'itemName': root.find('itemName').text,
+                'manufacture': el.attrib.get('action', 'unknown')
+            }
