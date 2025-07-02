@@ -6,6 +6,7 @@ from extract.__init import ItemClass
 from pathlib import Path
 import xml.etree.ElementTree as ET
 
+
 classify = {
             'shop': 'Shop',
             'node': 'Node',
@@ -173,3 +174,7 @@ def list_manufacture_action(xml_file: str, manufacture_action_set_dict: dict, la
                 'itemName': root.find('itemName').text,
                 'manufacture': el.attrib.get('action', 'unknown')
             }
+
+def read_json(path: str) -> dict | list:
+    with open(path, mode='r', encoding='utf-8') as f:
+        return f.read()

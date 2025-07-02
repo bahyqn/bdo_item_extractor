@@ -2,7 +2,7 @@ import importlib
 import xml.etree.ElementTree as ET
 import os
 from extract.__init import ItemClass
-from utils import create_json_class2json, get_all_files, insert_index_categories, insert_index_search, list_manufacture_action, split_and_clean_text, remove_double_braces, create_json, classify, check_key
+from utils import create_json_class2json, get_all_files, insert_index_categories, insert_index_search, list_manufacture_action, read_json, split_and_clean_text, remove_double_braces, create_json, classify, check_key
 from pathlib import Path
 from tqdm.rich import trange
 
@@ -34,7 +34,16 @@ def recipe_export(xml_file) -> dict:
     except ET.ParseError as e:
         print(f"Error parsing {xml_file}: {e}")
 
-def main(data_path: str, save_path: str, default_lang: str):
+def create_mapping_file(filename: str, lang: str, file_path: str, save_path:str) -> None:
+    temp_context: dict[str, any] = {}
+
+    context = recipe_export(os.path.join(file_path, filename))
+
+    for el in context['string']:
+        temp_context[el['index'].strip()] = el['name'].strip()
+    create_json(os.path.join(save_path, lang), 'string', temp_context)
+
+def main(data_path: str, save_path: str, default_lang: str) -> None:
     '''
     index_search:
         'en': {
@@ -45,13 +54,15 @@ def main(data_path: str, save_path: str, default_lang: str):
             ...
         }
     '''
+    
+    # index_action_string_path: str = './action_string.json'
     try:
         index_search: dict = {}
         index_categories: dict[str, ItemClass] = {}
         current_lang: str = ''
+        manufacture_action_set_dict: dict = {}
 
         files = get_all_files(data_path)
-        manufacture_action_set_dict: dict = {}
 
         for index in trange(len(files)):
             file = files[index]
@@ -59,17 +70,21 @@ def main(data_path: str, save_path: str, default_lang: str):
             _de_292.xml: ['', 'de', '292.xml']
             292.xml: ['292.xml']
             '''
-            temp_lang = file.split('_')
+            split_filename = file.split('_')
+
+            if len(split_filename) == 3:
+                current_lang = split_filename[1]
+            elif len(split_filename) == 1:
+                current_lang = default_lang
+
+            if split_filename[-1] == 'string.xml':
+                create_mapping_file(split_filename[-1], default_lang, data_path, save_path)
+                continue
 
             item_data = recipe_export(os.path.join(data_path, file))
 
-            if len(temp_lang) == 3:
-                current_lang = temp_lang[1]
-            elif len(temp_lang) == 1:
-                current_lang = default_lang
-
             insert_index_search(index_search, current_lang, item_data)
-            create_json(os.path.join(save_path, current_lang), temp_lang[-1].split('.')[0], item_data)
+            create_json(os.path.join(save_path, current_lang), split_filename[-1].split('.')[0], item_data)
             insert_index_categories(list(item_data.keys()), index_categories, item_data, current_lang, classify)
 
         #     list_manufacture_action(os.path.join(data_path, file), manufacture_action_set_dict, current_lang)

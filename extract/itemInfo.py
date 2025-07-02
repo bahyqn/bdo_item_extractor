@@ -15,8 +15,7 @@ def itemDesc(tag) -> str:
 
 def house(tag) -> list:
     data: dict[str, any] = {
-        # 'class': 'House',
-        'type': tag.attrib.get("type", "Unknown"),
+        'type': tag.attrib.get("type"),
         'item': []
     }
     house = tag.findall('item')
@@ -32,13 +31,10 @@ def makelist(tag) -> list:
 
 def manufacture(tag) -> list:
     data = {
-        'action': '',
+        'action': tag.attrib.get("action", "Unknown"),
         'item': []
     }
-    ac = tag.attrib.get("action", "Unknown")
-    if ac != 'unknown':
-        temp_ac = [s.capitalize() for s in ac.split('_')[1:]]
-        data['action'] = " ".join(temp_ac)
+
     for item in tag.findall('item'):
         data['item'].append(get_items(item))
     return [data]
@@ -83,3 +79,6 @@ def get_items(tag):
     except ET.ParseError as e:
         ...
     return data
+
+def match_index(tag: str, flag: str, mapping: dict) -> None:
+    pass
