@@ -1,4 +1,4 @@
-from utils import remove_double_braces
+from utils import remove_double_braces, deduplicate_list
 import xml.etree.ElementTree as ET
 
 def itemKey(tag) -> int:
@@ -21,7 +21,7 @@ def house(tag) -> list:
     house = tag.findall('item')
     for el in house:
         data['item'].append(get_items(el))
-    return [data]
+    return deduplicate_list([data])
 
 def makelist(tag) -> list:
     data: list = []
@@ -37,20 +37,20 @@ def manufacture(tag) -> list:
 
     for item in tag.findall('item'):
         data['item'].append(get_items(item))
-    return [data]
+    return deduplicate_list([data])
 
 
 def alchemy(tag) -> list:
     data: list = []
     for item in tag.findall('item'):
         data.append(get_items(item))
-    return [data]
+    return deduplicate_list([data])
 
 def cook(tag) -> list:
     data: list = []
     for item in tag.findall('item'):
         data.append(get_items(item))
-    return [data]
+    return deduplicate_list([data])
 
 def shop(tag) -> list:
     return [tag.find('character').find('name').text]
@@ -79,6 +79,3 @@ def get_items(tag):
     except ET.ParseError as e:
         ...
     return data
-
-def match_index(tag: str, flag: str, mapping: dict) -> None:
-    pass

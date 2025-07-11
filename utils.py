@@ -178,3 +178,14 @@ def list_manufacture_action(xml_file: str, manufacture_action_set_dict: dict, la
 def read_json(path: str) -> dict | list:
     with open(path, mode='r', encoding='utf-8') as f:
         return f.read()
+    
+
+def deduplicate_list(lis: list) -> list:
+    temp_set = set()
+    for el in lis:
+        temp_set.add(json.dumps(el, sort_keys=True))
+    
+    temp_list = []
+    for el in temp_set:
+        temp_list.append(json.loads(el))
+    return temp_list
