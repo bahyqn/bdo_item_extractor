@@ -25,7 +25,11 @@ def recipe_export(xml_file) -> dict:
                 if check_key(classify, tag.tag)not in data:
                     data[check_key(classify, tag.tag)] = []
 
-                data[check_key(classify, tag.tag)].extend(func(tag))
+                length = len(func(tag))
+                if (length == 1) and (func(tag)[0] not in data[check_key(classify, tag.tag)]):
+                    data[check_key(classify, tag.tag)].extend(func(tag))
+                elif length > 1:
+                    data[check_key(classify, tag.tag)].extend(func(tag))
 
             else:
                 data[check_key(classify, tag.tag)] = func(tag)
