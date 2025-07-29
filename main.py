@@ -41,7 +41,14 @@ def recipe_export(xml_file) -> dict:
 def create_mapping_file(filename: str, lang: str, file_path: str, save_path:str) -> None:
     temp_context: dict[str, any] = {}
 
+    # print('filename', filename)
+    # print('lang', lang)
+    # print('filepath', file_path)
+    # print()
+
     context = recipe_export(os.path.join(file_path, filename))
+    # print(f"{save_path}/{lang}/{filename}")
+    # print('-------------')
 
     for el in context['string']:
         temp_context[el['index'].strip()] = el['name'].strip()
@@ -82,7 +89,7 @@ def main(data_path: str, save_path: str, default_lang: str) -> None:
                 current_lang = default_lang
 
             if split_filename[-1] == 'string.xml':
-                create_mapping_file(split_filename[-1], default_lang, data_path, save_path)
+                create_mapping_file(file, current_lang, data_path, save_path)
                 continue
 
             item_data = recipe_export(os.path.join(data_path, file))
